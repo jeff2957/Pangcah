@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #799A7D;
+  --color-secondary: #C2E1C5;
+  --color-tertiaty: #DDF79D;
+}
+
+a { 
+  @apply text-primary;
+}
+
+a:hover {
+  @apply border-b-2 border-primary;
+}
+
+h2 {
+  @apply font-TaipeiRegular;
+}
+
+h1, h4 {
+  @apply font-TaipeiBold;
+}
+
+text {
+  @apply font-TaipeiLight
+}
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+@font-face {
+  font-family: "KozMinPro-Bold";
+  src: url(/public/assets/font/KozMinPro-Bold.otf) format("otf");
+  font-family: "KozMinPro-Heavy";
+  src: url(/public/assets/font/KozMinPro-Heavy.otf) format("otf");
+}
+
+@layer utilities {
+
+  .clipBlobStyle {
+    /* clipPath: path("M269.225 0.502629C334.237 -4.79981 393.42 32.8396 449.129 66.7691C506.012 101.414 562.612 139.648 594.073 198.352C626.601 259.046 643.305 331.274 626.701 398.103C610.663 462.653 554.116 505.916 506.196 552.043C462.312 594.285 420.25 647.864 359.763 655.052C300.744 662.066 254.536 607.541 198.184 588.647C144.778 570.741 76.7212 587.964 37.9096 547.141C-0.953896 506.264 8.92398 441.006 4.36846 384.786C0.0907025 331.995 -5.5449 279.225 12.155 229.306C30.8971 176.447 65.348 131.94 107.241 94.6538C154.856 52.274 205.692 5.68443 269.225 0.502629Z") */
+  }
+}
+
+.slideImg {
+  width: 100%; 
+  /* /* border-radius: 50%; */
+}
+
+.slideItems {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  animation: carouselAnim 50s infinite alternate linear;
+}
+
+.slideEntry {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  /* background: #fff; */
+  /* margin: 1em; */
+  /* padding: 0.5em; */
+  /* border-radius: 10px;s */
+  /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
+}
+
+/* @media only screen and (max-width: 100%) {
+  .slideItems {
+    animation: carouselAnim 35s infinite alternate linear;
+  }
+  
+  @keyframes carouselAnim {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(calc(-100% + (2 * 600px)));
+    }
+  }
+} */
+
+/* @keyframes carouselAnim {
+  from {
+    transform: translate(0%, 0);
+  }
+  to {
+    transform: translate(calc(100% ));
+  }
+} */
+
+/* .slideContainer .faders {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+} */
+
+/* .faders .right,
+.faders .left {
+  background: linear-gradient(
+    to right,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  z-index: 200;
+} */
+
+/* .right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+} */
+
+/* loopSLide */
+
+@keyframes marquee {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: -100%;
+	}
+}
+.animate {
+	width: 200%;
+	animation: marquee 40s linear infinite;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+.logo a {
+	width: 80px;
+	-webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+@screen lg {
+	@keyframes marquee {
+		0% {
+			left: 0;
+		}
+		100% {
+			left: -150%;
+		}
+	}
+	.animate {
+		width: 300%;
+		animation: marquee 40s linear infinite;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+	.logo a {
+		width: 100px;
+		-webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+}
+.animate:hover {
+	animation-play-state: paused;
+}
+
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+    --tw-backdrop-blur: blur(8px);
+    backdrop-filter: var(--tw-backdrop-filter);
+    /* box-shadow: 0 0 500px rgba(241, 241, 241, 0); */
+  }
+}
+.popup-content {
+  -webkit-animation: anvil 0.45s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+
+.next,
+.prev {
+  top: calc(50% - 20px);
+  position: absolute;
+  background: transparent;
+  border-radius: 30px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 40px;
+  z-index: 20;
+}
