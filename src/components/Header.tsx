@@ -7,6 +7,8 @@ import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
 
+const headerLink = ["about us", "features", "events", "tickets", "contact"];
+
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
@@ -38,10 +40,9 @@ const Menu = () => {
       >
         <polygon points="50,0 100,0 50,100 0,100" />
       </svg> */}
-
       <Popover>
         <div 
-          className="fixed top-2 left-2 right-2 rounded-xl pt-4 pb-4 sm:px-6 lg:px-8 bg-white bg-opacity-10 backdrop-blur-sm" 
+          className="fixed md:top-2 top-0 left-2 right-2 rounded-xl pt-4 md:pb-4 sm:px-6 lg:px-8 md:bg-white bg-transparent md:bg-opacity-10 md:backdrop-blur-sm" 
         >
           <nav
             className="relative flex items-center justify-between sm:h-10"
@@ -51,9 +52,9 @@ const Menu = () => {
               <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span className="sr-only">{companyName}</span>
-                  <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
+                  <img alt="logo" className="h-16 w-auto sm:h-16" src="/assets/icon/logo_icon.svg" />
                 </a>
-                <div className="-mr-2 flex items-center md:hidden">
+                <div className="-mr-5 flex items-center md:hidden">
                   <Popover.Button
                     className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
                   >
@@ -63,7 +64,7 @@ const Menu = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block md:ml-10 md:pr-20 md:space-x-8">
+            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
               {navigation.map((item) => (
                 <Link
                   spy={true}
@@ -72,7 +73,8 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="font-medium text-text hover:text-hover"
+                  hover={headerLink}
+                  className="font-medium text-primary hover:text-text"
                 >
                   {item.name}
                 </Link>
@@ -85,7 +87,7 @@ const Menu = () => {
               </a> */}
             </div>
           </nav>
-          <motion.div className={`h-0.5 mt-1  opacity-60 py-0 rounded-t-xl`} style={{scaleX: progressX, zIndex: 20, background: 'radial-gradient(circle, rgba(255,234,11,1) 0%, rgba(247,231,168,1) 57%, rgba(255,255,255,1) 100%)'}}/>
+          <motion.div className={`h-0.5 mt-1  opacity-60 py-0 rounded-t-xl`} style={{scaleX: progressX, zIndex: 20, background: 'radial-gradient(circle, rgba(152,219,193,1) 38%, rgba(255,255,255,0.8505996148459384) 100%)'}}/>
         </div>
 
         <Transition

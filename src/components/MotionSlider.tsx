@@ -69,7 +69,7 @@ const MotionSlider = () => {
   return (
     <>
     {/* <section className="py-8 bg-black" id="markets"> */}
-      <div className={`relative flex justify-center items-center mx-auto px-2 pt-4 pb-12 text-white`} style={{width: '100vw', height: '100vh'}}>
+      <div className={`relative flex justify-center items-center mx-auto my-auto px-2 pt-4 pb-12 text-white`} style={{width: '100vw', height: '100vh'}}>
       <AnimatePresence initial={false} custom={direction}>
         {/* {marketLists.map((market) => ( */}
         {/* <motion.div className="flex flex-col items-center"> */}
@@ -78,7 +78,7 @@ const MotionSlider = () => {
           key={page}
           src={images[imageIndex]}
           className="absolute clip rounded-full"
-          style={{maxWidth: '70vw', height: '70%'}}
+          style={{maxWidth: '70vw', maxHeight: '70%', minWidth: '20vw', width: 'auto',}}
           custom={direction}
           variants={variants}
           initial="enter"
@@ -105,10 +105,10 @@ const MotionSlider = () => {
         {/* </motion.div> */}
         {/* ))} */}
       </AnimatePresence>
-      <div className="next" onClick={() => paginate(1)} style={{right: '15%'}}>
+      <div className="next" onClick={() => paginate(1)} style={{right: '15%', height: '0%'}}>
         {"‣"}
       </div>
-      <div className="prev" onClick={() => paginate(-1)} style={{left: '15%', transform: 'scale(-1)'}}>
+      <div className="prev" onClick={() => paginate(-1)} style={{left: '15%', transform: 'scale(-1)', height: '1%'}}>
         {"‣"}
       </div>
       </div>

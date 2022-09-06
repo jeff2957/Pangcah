@@ -7,7 +7,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+        <link rel="icon" href="/assets/icon/favicon.svg" />
+        </Head>
         <body>
           <Main />
           <NextScript />

@@ -8,18 +8,18 @@ const Pricing = () => {
   const [firstPlan, secondPlan, thirdPlan] = items;
 
   return (
-    <section className={`py-8 bg-white`} id="pricing" 
+    <section className={`py-8 mx-5 rounded-3xl `} id="pricing" style={{background: 'linear-gradient(143deg, rgba(42,69,55,0.99) 0%, rgba(69,98,74,0.93) 34%, rgba(77,115,77,0.89) 49%, rgba(102,129,106,0.88) 100%)'}} 
     // style={{backgroundImage: 'url(/assets/images/poster3.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width:'100vw', maxWidth: '100%'}}
     >
-      <div className={` mx-auto px-2 pt-4 pb-12 text-primary`}>
+      <div className={` mx-auto px-2 pt-4 pb-12`}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-gray-200`}
         >
           {title}
         </h1>
         <div className={`w-full mb-4`}>
           <div
-            className={`h-1 mx-auto bg-primary w-64 opacity-80 my-0 py-0 rounded-t`}
+            className={`h-1 mx-auto bg-black bg-opacity-30 w-64 opacity-80 my-0 py-0 rounded-t`}
           ></div>
         </div>
         <div

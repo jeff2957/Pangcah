@@ -5,15 +5,15 @@ import config from '../config/index.json';
 const MainHero = () => {
   const { mainHero } = config;
   return (
-    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-20 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="text-left">
-        <h1 className="text-6xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl font-KozHeavy">
-          <span className="block xl:inline" style={{textAlign: 'left'}}>{mainHero.title}</span>{' '}
+        <h5 className="text-7xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl font-KozHeavy">
+          <span className="block xl:inline" style={{textAlign: 'left'}}>{mainHero.title +' Festival'}</span>{' '}
           <span className={`block text-primary xl:inline`}>
             {/* {mainHero.subtitle} */}
           </span>
-        </h1>
-        <p className="mt-3 text-lg text-gray-400 opacity-90 sm:max-w-xl md:mt-5 md:text-md mx-0 lg:text-2xl font-KozRegular">
+        </h5>
+        <p className="mt-3 text-lg text-gray-400 opacity-90 sm:max-w-xl md:mt-5 md:text-md mx-0 lg:text-2xl font-KozHeavy">
           {mainHero.description}<br/>
           {mainHero.description1}
         </p>

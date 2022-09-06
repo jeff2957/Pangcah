@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <>
-    <motion.video  className='overscroll-none' src="/assets/video/backgroundVid.mp4" autoPlay loop playsInline muted style={{objectFit: 'cover', width: '100vw', height: '100vh', position: 'fixed', top: 0, zIndex: 0, scale: overScale}}>
+    <motion.video  className='overscroll-none' src="https://res.cloudinary.com/projectartichoke/video/upload/v1662434830/backgroundVid_new_zqhuoi.mp4" autoPlay loop muted style={{objectFit: 'cover', width: '100vw', position: 'fixed', top: 0, zIndex: 0, scale: overScale}}>
       your browser does not support the video format
     </motion.video>
     <div className={`grid gap-y-20`} style={{height: '200vw'}}
