@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, useTransform, useViewportScroll } from 'framer-motion';
+import { motion, useTransform, useViewportScroll, useSpring } from 'framer-motion';
 
 import About from '../components/About';
 // import Analytics from '../components/Analytics';
@@ -23,26 +23,37 @@ const App = () => {
 
   const { scrollYProgress } = useViewportScroll();
   // const opacity = useTransform(scrollY, [0, 100, 200], [0.3, 0, 0.6])
-  const overScale = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [1, 1.6, 1.2, 2])
+  const overScale = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [1, 1.2, 1.5, 2]);
+  const blurScale = useTransform(scrollYProgress, [0, 0.5, 1], [0, 4, 12]);
+  const yRange = useTransform(scrollYProgress, [0, 0.1, 1], [1, 0.01, 0]);
+  const opacity = useSpring(yRange, { stiffness: 400, damping: 40 });
+  const filter = useTransform(blurScale, b => `blur(${b}px)`);
 
   return (
     <>
-    <motion.video  className='overscroll-none' src="https://res.cloudinary.com/projectartichoke/video/upload/v1662434830/backgroundVid_new_zqhuoi.mp4" autoPlay loop muted style={{objectFit: 'cover', width: '100vw', position: 'fixed', top: 0, zIndex: 0, scale: overScale}}>
+    <motion.video id="vidBlur" className='overscroll-none' src="https://res.cloudinary.com/projectartichoke/video/upload/v1662434830/backgroundVid_new_zqhuoi.mp4" autoPlay loop muted layout 
+    style={{objectFit: 'cover', width: '100vw', position: 'fixed', top: 0, zIndex: 0, scale: overScale, filter}}
+    >
       your browser does not support the video format
     </motion.video>
-    <div className={`grid gap-y-20`} style={{height: '200vw'}}
-    // style={{backgroundImage: 'url(/assets/video/backgroundVid.mp4)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: '200vw', width: '100vw'}}
+    <div >
+      <Header /> 
+    </div>
+    <div className={`grid gap-y-20`} 
+    style={{height: '200vw'}}
+    // style={{backgroundImage: 'url(/assets/images/mainHeroImg.png)', backgroundSize: 'center', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', width: '100vw', height: '100vh'}}
     >
-      <div className={`relative`} style={{zIndex: 21}}>
+      <motion.div className={`relative m-3 rounded-3xl`} 
+      style={{zIndex: 21, backgroundImage: 'url(assets/images/mainHeroImg.png)', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh', opacity: opacity}}
+      >
         <div className="max-w-8xl mx-auto">
           <div
-            className={`relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-8xl lg:w-full lg:pb-28 xl:pb-32`}
+            className={`relative z-10 pb-16 sm:pb-16 md:pb-20 lg:max-w-8xl lg:w-full lg:pb-28 xl:pb-32`}
           >
-            <Header /> 
             <MainHero />
           </div>
         </div>
-      </div>
+      </motion.div>
       {/* <LazyShow>
         <>
           <Canvas />

@@ -42,7 +42,7 @@ const Menu = () => {
       </svg> */}
       <Popover>
         <div 
-          className="fixed md:top-2 top-0 left-2 right-2 rounded-xl pt-4 md:pb-4 sm:px-6 lg:px-8 md:bg-white bg-transparent md:bg-opacity-10 md:backdrop-blur-sm" 
+          className="fixed z-40 md:top-2 top-0 left-2 right-2 rounded-xl pt-4 md:pb-4 sm:px-6 lg:px-8 md:bg-white bg-transparent md:bg-opacity-10 md:backdrop-blur-sm" 
         >
           <nav
             className="relative flex items-center justify-between sm:h-10"
@@ -87,7 +87,7 @@ const Menu = () => {
               </a> */}
             </div>
           </nav>
-          <motion.div className={`h-0.5 mt-1  opacity-60 py-0 rounded-t-xl`} style={{scaleX: progressX, zIndex: 20, background: 'radial-gradient(circle, rgba(152,219,193,1) 38%, rgba(255,255,255,0.8505996148459384) 100%)'}}/>
+          <motion.div className={`h-0.5 mt-1  opacity-60 py-0 rounded-t-xl`} style={{scaleX: progressX, zIndex: 41, background: 'radial-gradient(circle, rgba(152,219,193,1) 38%, rgba(255,255,255,0.8505996148459384) 100%)'}}/>
         </div>
 
         <Transition

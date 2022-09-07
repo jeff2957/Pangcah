@@ -10,7 +10,7 @@ const { title } = artists;
 return (
 <section className={`py-8 bg-opacity-60 backdrop-blur-md mx-5 rounded-3xl`} style={{background: 'linear-gradient(150deg, rgba(125,147,112,1) 2%, rgba(82,117,102,1) 61%, rgba(69,99,86,0.83) 81%, rgba(45,91,79,0.44441526610644255) 96%)'}} id="artists">
   <div className={`container mx-auto px-2 pt-4 pb-12 text-black`}>
-    <h1 className={`w-full my-2 text-5xl font-bold leading-tight text-center text-black`}>
+    <h1 className={`w-full my-2 text-5xl font-bold leading-tight text-center text-gray-200`}>
       {title}
     </h1>
     <div className={`w-full mb-4`}>

@@ -6,7 +6,7 @@ const LoopSlide = () => {
 
   return (
     <div
-			className="overflow-hidden overflow-x-hidden py-20 px-1 relative max-w-screen-full" style={{height: '50vw', width: '100vw'}}
+			className="overflow-hidden overflow-x-hidden py-1 px-1 relative max-w-screen-full" style={{height: '50vw', width: '100vw'}}
 		>
     <div className="flex animate relative ax-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex w-50 justify-around items-center">

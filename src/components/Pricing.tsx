@@ -62,16 +62,16 @@ const Pricing = () => {
             <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
             >
-              <div className={`w-full p-8 whitespace-nowrap text-md md:text-5xl font-bold text-center`}>
+              <div className={`w-full p-8 whitespace-nowrap text-md md:text-5xl font-bold text-center text-primary`}>
                 {secondPlan?.name}
               </div>
               <div
-                className={`h-1 w-full bg-primary my-0 py-0 rounded-t`}
+                className={`h-1 w-full bg-secondary my-0 py-0 rounded-t`}
               ></div>
               <ul className={`w-full text-center text-base font-bold`}>
                 {secondPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-1 md:py-4`}
+                    className={`border-b py-1 md:py-4 text-gray-700`}
                     key={`${secondPlan?.name}-${feature}`}
                   >
                     {feature}
@@ -82,7 +82,7 @@ const Pricing = () => {
             <div
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
-              <div className={`w-full pt-6 text-4xl font-bold text-center`}>
+              <div className={`w-full pt-6 text-4xl font-bold text-center text-gray-700`}>
                 {secondPlan?.price}
                 <span className={`text-base`}> {secondPlan?.priceDetails}</span>
               </div>

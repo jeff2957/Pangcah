@@ -73,7 +73,7 @@ const MotionSlider = () => {
       <AnimatePresence initial={false} custom={direction}>
         {/* {marketLists.map((market) => ( */}
         {/* <motion.div className="flex flex-col items-center"> */}
-          <motion.h2 className="z-20 text-4xl font-black font-TaipeiBold" style={{height: '80%'}}>{imageText[imageIndex]}</motion.h2>
+          <motion.h2 className="z-20 text-5xl font-black font-TaipeiBold" style={{height: '80%'}}>{imageText[imageIndex]}</motion.h2>
           <motion.img
           key={page}
           src={images[imageIndex]}

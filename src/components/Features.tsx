@@ -6,13 +6,13 @@ const Features = () => {
   const { features } = config;
   const { subtitle, description, items: featuresList } = features;
   return (
-    <div className={`bg-opacity-30 backdrop-blur-md mx-5 lg:rounded-full md: rounded-3xl`} style={{height: '100vh', background: 'linear-gradient(257deg, rgba(127,152,112,1) 2%, rgba(82,117,102,1) 61%, rgba(69,99,86,0.83) 81%, rgba(125,215,192,0.44441526610644255) 96%)'}} id="features">
+    <div className={`py-8 bg-opacity-30 backdrop-blur-md mx-5 lg:rounded-full md: rounded-3xl`} style={{height: '100vh', background: 'linear-gradient(257deg, rgba(127,152,112,1) 2%, rgba(82,117,102,1) 61%, rgba(69,99,86,0.83) 81%, rgba(125,215,192,0.44441526610644255) 96%)'}} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* <h2 className={`text-base text-primary font-semibold tracking-wide uppercase text-center`}>
             {title}
           </h2> */}
-          <p className="text-3xl pt-5 font-extrabold tracking-tight text-gray-200 sm:text-4xl text-center font-TaipeiBold">
+          <p className="text-5xl pt-5 font-extrabold tracking-tight text-gray-200 text-center font-TaipeiBold">
             {subtitle}
           </p>
           <div className={`w-full mb-4`}>
