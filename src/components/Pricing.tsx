@@ -49,7 +49,7 @@ const Pricing = () => {
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
               <div
-                className={`w-full pt-6 text-2xl text-gray-600 font-bold text-center`}
+                className={`w-full pt-6 md:text-2xl text-md text-gray-600 font-bold text-center`}
               >
                 {firstPlan?.price}
                 <span className={`text-base`}> {firstPlan?.priceDetails}</span>
@@ -82,7 +82,7 @@ const Pricing = () => {
             <div
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
-              <div className={`w-full pt-6 text-4xl font-bold text-center text-gray-700`}>
+              <div className={`w-full pt-6 text-xl font-bold text-center text-gray-700 md:text-4xl`}>
                 {secondPlan?.price}
                 <span className={`text-base`}> {secondPlan?.priceDetails}</span>
               </div>
@@ -112,7 +112,7 @@ const Pricing = () => {
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
               <div
-                className={`w-full pt-6 text-2xl text-gray-600 font-bold text-center`}
+                className={`w-full pt-6 md:text-2xl text-md text-gray-600 font-bold text-center`}
               >
                 {thirdPlan?.price}
                 <span className={`text-base`}> {thirdPlan?.priceDetails}</span>

@@ -7,7 +7,7 @@ const MainHero = () => {
   return (
     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-20 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="text-left">
-        <h5 className="text-7xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl font-KozHeavy">
+        <h5 className=" pt-5 text-5xl tracking-tight font-extrabold text-white md:text-6xl font-KozHeavy">
           <span className="block xl:inline" style={{textAlign: 'left'}}>{mainHero.title +' Festival'}</span>{' '}
           <span className={`block text-primary xl:inline`}>
             {/* {mainHero.subtitle} */}
@@ -18,7 +18,9 @@ const MainHero = () => {
           {mainHero.description1}
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="text-3xl text-gray-100" style={{ paddingTop: '42vh', paddingLeft: '60vw'}}>
+          <div className="text-sm text-gray-100 md:text-3xl" 
+          style={{ paddingTop: '42vh', paddingLeft: '60vw'}}
+          >
             <h1> 大農大富平地森林園區 </h1>
           </div>
           {/* <div className="rounded-md shadow">

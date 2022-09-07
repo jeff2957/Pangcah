@@ -32,7 +32,7 @@ const App = () => {
   return (
     <>
     <motion.video id="vidBlur" className='overscroll-none' src="https://res.cloudinary.com/projectartichoke/video/upload/v1662434830/backgroundVid_new_zqhuoi.mp4" autoPlay loop muted layout 
-    style={{objectFit: 'cover', width: '100vw', position: 'fixed', top: 0, zIndex: 0, scale: overScale, filter}}
+    style={{objectFit: 'cover', width: '100vw', minHeight: '100vh' ,position: 'fixed', top: 0, zIndex: 0, scale: overScale, filter}}
     >
       your browser does not support the video format
     </motion.video>
@@ -44,7 +44,7 @@ const App = () => {
     // style={{backgroundImage: 'url(/assets/images/mainHeroImg.png)', backgroundSize: 'center', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', width: '100vw', height: '100vh'}}
     >
       <motion.div className={`relative m-3 rounded-3xl`} 
-      style={{zIndex: 21, backgroundImage: 'url(assets/images/mainHeroImg.png)', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh', opacity: opacity}}
+      style={{zIndex: 21, backgroundImage: 'url(assets/images/mainHeroImg.png)', backgroundSize: 'cover', backgroundPosition: 'center', objectFit: 'fill', opacity: opacity}}
       >
         <div className="max-w-8xl mx-auto">
           <div

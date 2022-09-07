@@ -28,7 +28,7 @@ return (
     </div>
     <div className="grid md:grid-cols-6 gap-x-6 grid-cols-2 place-items-center">
       {partnerList.map((partner) => (
-        <div key={partner.name} className="w-40 h-40 rounded hover:scale-110">
+        <div key={partner.name} className="lg:w-40 lg:h-40 md:w-30 md:h-30 w-24 h-24 mx-2 my-2 rounded hover:scale-110">
           <div  className="text-center">
             <Popup trigger={
               <a>

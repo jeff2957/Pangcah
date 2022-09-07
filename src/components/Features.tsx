@@ -6,7 +6,7 @@ const Features = () => {
   const { features } = config;
   const { subtitle, description, items: featuresList } = features;
   return (
-    <div className={`py-8 bg-opacity-30 backdrop-blur-md mx-5 lg:rounded-full md: rounded-3xl`} style={{height: '100vh', background: 'linear-gradient(257deg, rgba(127,152,112,1) 2%, rgba(82,117,102,1) 61%, rgba(69,99,86,0.83) 81%, rgba(125,215,192,0.44441526610644255) 96%)'}} id="features">
+    <div className={`py-8 bg-opacity-30 backdrop-blur-md mx-5 lg:rounded-tl-full lg:rounded-tr-full md:rounded-3xl rounded-3xl`} style={{objectFit: 'fill', background: 'linear-gradient(257deg, rgba(127,152,112,1) 2%, rgba(82,117,102,1) 61%, rgba(69,99,86,0.83) 81%, rgba(125,215,192,0.44441526610644255) 96%)'}} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* <h2 className={`text-base text-primary font-semibold tracking-wide uppercase text-center`}>
@@ -29,7 +29,7 @@ const Features = () => {
             <div key={feature.name} className="relative m-auto">
               <dt className={'items-center'}>
                 <div className={`relative grid justify-center rounded-3xl bg-background
-                  text-tertiary  bg-clip-padding bg-opacity-40 hover:scale-105 md:pb-20 md:h-4/5 md:rounded-full`}>
+                  text-tertiary  bg-clip-padding bg-opacity-40 hover:scale-105 md:pb-20 md:h-4/5 lg:rounded-full`}>
                   <img className={`inline pb-8 drop-shadow-md hover:drop-shadow-none hover:scale-110`}
                     src={feature.icon} alt={feature.name} 
                     style={{height: '30vh', width: '30vw'}}
