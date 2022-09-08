@@ -34,10 +34,11 @@ module.exports = {
         text: '#C2E1C5',
         hover: '#E2A155',
         border: '#1a2e35',
+        primaryLight: '#8aba90',
         background: '#ffffff',
       },
       boxShadow: {
-        artistBg: '-6px 0 0 0 rgba(255, 255, 255, 0.85)'
+        artistBg: '-6px 0 0 0 rgba(63, 75, 32, 1)'
       },
       // backgroundImage: {
       //   "backgroundImg": "url('./assets/images/PangcahBackground.svg')"

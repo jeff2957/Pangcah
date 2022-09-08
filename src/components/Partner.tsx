@@ -15,7 +15,7 @@ const Partner = () => {
   const { items: partnerList, title } = partner;
 
 return (
-<section className={`py-8 bg-primary`} id="partner">
+<section className={`py-8 mx-3 bg-primary rounded-br-[100px] rounded-bl-[100px]`} id="partner">
   <div className={`container mx-auto px-2 pt-4 pb-12 text-white`}>
     <h1 className={`w-full my-2 text-5xl font-bold leading-tight text-center text-black`}>
       {title}

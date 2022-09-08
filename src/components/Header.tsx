@@ -15,10 +15,10 @@ const Menu = () => {
   const { name: companyName, logo } = company;
 
   const { scrollYProgress } = useViewportScroll();
-  const scaleX = useTransform(scrollYProgress, [0, 1], [0, 0.999])
+  const scaleX = useTransform(scrollYProgress, [0, 1.495], [0, 1])
   const progressX = useSpring(scaleX, {
-    stiffness: 70,
-    damping: 17,
+    stiffness: 200,
+    damping: 70,
     restDelta: 0.001
   })
   
@@ -74,7 +74,7 @@ const Menu = () => {
                   key={item.name}
                   to={item.href}
                   hover={headerLink}
-                  className="font-medium text-primary hover:text-text"
+                  className="font-medium text-secondary text-opacity-80 hover:text-primaryLight"
                 >
                   {item.name}
                 </Link>
@@ -87,7 +87,7 @@ const Menu = () => {
               </a> */}
             </div>
           </nav>
-          <motion.div className={`h-0.5 mt-1  opacity-60 py-0 rounded-t-xl`} style={{scaleX: progressX, zIndex: 41, background: 'radial-gradient(circle, rgba(152,219,193,1) 38%, rgba(255,255,255,0.8505996148459384) 100%)'}}/>
+          <motion.div className={`h-0.5 mt-1 opacity-60 py-0 rounded-t-xl`} style={{scaleX: progressX, zIndex: 41, background: 'radial-gradient(circle, rgba(152,219,193,1) 38%, rgba(255,255,255,0.8505996148459384) 100%)'}}/>
         </div>
 
         <Transition

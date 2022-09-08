@@ -25,14 +25,14 @@ const App = () => {
   // const opacity = useTransform(scrollY, [0, 100, 200], [0.3, 0, 0.6])
   const overScale = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [1, 1.2, 1.5, 2]);
   const blurScale = useTransform(scrollYProgress, [0, 0.5, 1], [0, 4, 12]);
-  const yRange = useTransform(scrollYProgress, [0, 0.1, 1], [1, 0.01, 0]);
-  const opacity = useSpring(yRange, { stiffness: 400, damping: 40 });
+  const opaRange = useTransform(scrollYProgress, [0, 0.1, 1], [1, 0.01, 0]);
+  const opacity = useSpring(opaRange, { stiffness: 400, damping: 40 });
   const filter = useTransform(blurScale, b => `blur(${b}px)`);
 
   return (
     <>
     <motion.video id="vidBlur" className='overscroll-none' src="https://res.cloudinary.com/projectartichoke/video/upload/v1662434830/backgroundVid_new_zqhuoi.mp4" autoPlay loop muted layout 
-    style={{objectFit: 'cover', width: '100vw', minHeight: '100vh' ,position: 'fixed', top: 0, zIndex: 0, scale: overScale, filter}}
+    style={{objectFit: 'cover', width: '100vw', minHeight: '100vh' ,position: 'fixed', top: 0, zIndex: 0, scale: overScale, filter }}
     >
       your browser does not support the video format
     </motion.video>
@@ -65,12 +65,14 @@ const App = () => {
         <Canvas />
         </>
       </LazyShow> */}
+      {/* <motion.div> */}
       <LazyShow>
         <>
         {/* <Canvas /> */}
         <LoopSlide />
         </>
       </LazyShow>
+      {/* </motion.div> */}
       {/* <Canvas /> */}
       <LazyShow>
         <>

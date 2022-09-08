@@ -54,7 +54,7 @@
       },
       {
         "title": "自然環境",
-        "description": "此次地方轉譯的多元性豐富，邀請國際知名藝術家范承宗，為生活節打造演出舞台「眾神殿」，製作發想源於太巴塱地方的Malataw信仰，在阿美族的社會中為戰神與獵神的象徵，並且隨著其特殊身份而衍伸出包含至高神、主宰神、守護神、太陽神或是月神等職責，爾後更進一步被升格為高聖神，是萬神之源、宇宙的主宰、阿美族的守護神。當今年Pangcah生活節結束後，將舞台回收拆解，重新製作為部落討論公眾事務集會時使用的座椅，如同Malataw的祝福常伴於部落日常生活中，無所不在。",
+        "description": "此次地方轉譯的多元性豐富，邀請國際知名藝術家范承宗，為生活節打造演出舞台「眾神殿」，製作發想源於太巴塱的Malataw信仰，在阿美族的社會中為戰神與獵神的象徵。\n當今年Pangcah生活節結束後，將舞台回收拆解，重新製作為部落討論公眾事務集會時使用的座椅，如同Malataw的祝福常伴於部落日常生活中，無所不在。",
         "img": "/assets/images/nature.jpg"
       }
     ]
@@ -71,12 +71,12 @@
       },
       {
         "name": "音樂",
-        "description": "集結來自東部的創作、族語和古調，打造以「馬拉道Malataw」信仰為設計核心的表演舞台，來一場最具東臺灣風格的音樂饗宴。",
+        "description": "集結來自東部的創作、族語和古調，設計以馬拉道信仰為核心的表演，來一場最具東臺灣風格的音樂饗宴。",
         "icon": "/assets/images/event_music2.svg"
       },
       {
         "name": "市集",
-        "description": "無論是食物和器物，都是風土、文化與人的連結，藉由吃進口中的、穿戴在身上的，體驗來自土地與文化的智慧。",
+        "description": "無論是食物和器物，都是風土、文化與人的連結，藉由吃進口中、穿戴於身的，體驗來自土地與文化的智慧。",
         "icon": "/assets/images/event_market1.svg"
       },
       {
@@ -245,7 +245,7 @@
     ],
     "socialMedia": {
       "facebook": "https://www.facebook.com/oripnopangcah/",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/pangcah.fest/",
       "youtube": "",
       "discord": ""
     }

@@ -69,16 +69,16 @@ const MotionSlider = () => {
   return (
     <>
     {/* <section className="py-8 bg-black" id="markets"> */}
-      <div className={`relative flex justify-center items-center mx-auto my-auto px-2 pt-4 pb-12 text-white`} style={{width: '100vw', height: '100vh'}}>
+      <div className={`relative flex justify-center items-center mx-auto my-auto px-2 pt-4 pb-14 text-white`} style={{maxHeight: '100vh', minHeight: '80vh', height: 'auto'}}>
       <AnimatePresence initial={false} custom={direction}>
         {/* {marketLists.map((market) => ( */}
         {/* <motion.div className="flex flex-col items-center"> */}
-          <motion.h2 className="z-20 text-5xl font-black font-TaipeiBold" style={{height: '80%'}}>{imageText[imageIndex]}</motion.h2>
+          <motion.h2 className="z-20 text-4xl md:text-5xl font-black font-TaipeiBold" style={{maxHeight: '76vh', minHeight: '75vh', height:'auto'}}>{imageText[imageIndex]}</motion.h2>
           <motion.img
           key={page}
           src={images[imageIndex]}
           className="absolute clip rounded-full"
-          style={{maxWidth: '70vw', maxHeight: '70%', minWidth: '20vw', width: 'auto',}}
+          style={{maxWidth: '70vw', minWidth: '20vw', width: 'auto',}}
           custom={direction}
           variants={variants}
           initial="enter"
