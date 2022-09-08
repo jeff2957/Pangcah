@@ -14,7 +14,7 @@ return (
       {title}
     </h1>
     <div className={`w-full mb-4`}>
-            <div className={`h-1 mx-auto bg-primary w-64 my-3 py-0 rounded-t`}></div>
+            <div className={`h-1 mx-auto bg-primary w-64 my-3 py-0 rounded-3xl`} style={{background: 'radial-gradient(circle, rgba(121,154,125,1) 80%, rgba(220,251,208,1) 100%)'}}></div>
           </div>
     <div className={`w-full mb-4`}>
       <div className={`h-1 mx-auto text-white w-64 opacity-25 my-0 py-0 rounded-t`}></div>

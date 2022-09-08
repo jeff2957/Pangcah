@@ -19,7 +19,7 @@ const Pricing = () => {
         </h1>
         <div className={`w-full mb-4`}>
           <div
-            className={`h-1 mx-auto bg-primary  w-64  my-0 py-0 rounded-t`}
+            className={`h-1 mx-auto bg-primary w-64  my-0 py-0 rounded-full`} style={{background: 'radial-gradient(circle, rgba(121,154,125,1) 80%, rgba(220,251,208,1) 100%)'}}
           ></div>
         </div>
         <div

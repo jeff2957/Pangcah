@@ -16,7 +16,7 @@ const Features = () => {
             {subtitle}
           </p>
           <div className={`w-full mb-4`}>
-            <div className={`h-1 mx-auto bg-primary w-64 my-3 py-0 rounded-t`}></div>
+            <div className={`h-1 mx-auto bg-primary w-64 my-3 py-0 rounded-3xl`} style={{background: 'radial-gradient(circle, rgba(121,154,125,1) 80%, rgba(220,251,208,1) 100%)'}}></div>
           </div>
           <p className="py-6 mt-1 max-w-2xl text-xl text-gray-700 mx-auto text-left font-TaipeiRegular">
             {description}
