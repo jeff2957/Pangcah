@@ -24,7 +24,7 @@ const Product = () => {
         </h1>
         <Divider />
         <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
+          <div className={`w-5/6 sm:w-1/2 p-6 mt-5`}>
             <h3
               className={`text-3xl text-gray-900 font-bold leading-none mb-3 font-TaipeiRegular`}
             >
@@ -48,7 +48,7 @@ const Product = () => {
               alt={secondItem?.title}
             />
           </div>
-          <div className={`w-full sm:w-1/2 p-6 mt-20`}>
+          <div className={`w-full sm:w-1/2 p-6 mt-5 mb-20`}>
             <div className={`align-middle`}>
               <h3
                 className={`text-3xl text-gray-900 font-bold leading-none mb-3 font-TaipeiRegular`}

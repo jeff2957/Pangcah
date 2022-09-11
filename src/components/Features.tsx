@@ -6,7 +6,7 @@ const Features = () => {
   const { features } = config;
   const { subtitle, description, items: featuresList } = features;
   return (
-    <div className={`py-8 bg-opacity-30 backdrop-blur-md mx-5 lg:rounded-tr-[650px] lg:rounded-tl-[650px] md:rounded-tr-3xl rounded-3xl`} style={{objectFit: 'fill', background: 'radial-gradient(circle, rgba(245,242,242,0.93) 40%, rgba(255,255,255,0.60) 75%)'}} id="features">
+    <div className={`py-8 bg-opacity-30 backdrop-blur-md mx-5 lg:rounded-tr-[750px] lg:rounded-tl-[750px] md:rounded-tr-3xl rounded-3xl`} style={{objectFit: 'fill', background: 'radial-gradient(circle, rgba(245,242,242,0.93) 40%, rgba(255,255,255,0.60) 75%)'}} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* <h2 className={`text-base text-primary font-semibold tracking-wide uppercase text-center`}>

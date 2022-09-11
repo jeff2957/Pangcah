@@ -14,14 +14,14 @@ const About = () => {
         <div>
           {/* <img src={logo} alt={companyName} className="w-16 h-16" /> */}
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
+        {/* <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
           {sections.map((section, index) => (
           <a key={`${section.name}-${index}`} href={section.href}
-            className="hover:text-primary text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white">
+            className="hover:text-white text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white">
             {section.name}
           </a>
           ))}
-        </div>
+        </div> */}
         <div className="flex items-center gap-x-8 mt-6 h-8">
           <a aria-label="github" href={socialMedia.facebook} target="_blank" rel="noreferrer">
             <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -32,8 +32,8 @@
   "mainHero": {
     "title": "Pangcah",
     "subtitle": "landing page.",
-    "description": "10 Oct. - ",
-    "description1": "11 Oct. 2022",
+    "description": "8 Oct. - ",
+    "description1": "9 Oct. 2022",
     "img": "/assets/video/headerClip.mp4",
     "primaryAction": {
       "text": "Get started",
@@ -50,12 +50,12 @@
       {
         "title": "在地文化",
         "description": "以生物多樣性的永續發展為前提，透過「共創藝術」貫穿阿美族人的工藝、飲食、音樂、建築、信仰、規範等生活日常，體現原住民族的古老智慧於當代的多元想像，打造一場跨界整合的藝術共創大事件，提供地方風土資源轉譯再應用的新方法。",
-        "img": "/assets/images/culture.jpg"
+        "img": "https://res.cloudinary.com/projectartichoke/image/upload/v1662938037/culture_psy99m.jpg"
       },
       {
         "title": "自然環境",
         "description": "此次地方轉譯的多元性豐富，邀請國際知名藝術家范承宗，為生活節打造演出舞台「眾神殿」，製作發想源於太巴塱的Malataw信仰，在阿美族的社會中為戰神與獵神的象徵。\n當今年Pangcah生活節結束後，將舞台回收拆解，重新製作為部落討論公眾事務集會時使用的座椅，如同Malataw的祝福常伴於部落日常生活中，無所不在。",
-        "img": "/assets/images/nature.jpg"
+        "img": "https://res.cloudinary.com/projectartichoke/image/upload/v1662938054/nature_ouquko.jpg"
       }
     ]
   },
@@ -76,7 +76,7 @@
       },
       {
         "name": "市集",
-        "description": "無論是食物和器物，都是風土、文化與人的連結，藉由吃進口中、穿戴於身的，體驗來自土地與文化的智慧。",
+        "description": "食物和器物兩者皆是風土、文化與人的連結，藉由吃進口中、穿戴於身的，體驗來自土地與文化的智慧。",
         "icon": "/assets/images/event_market1.svg"
       },
       {
@@ -95,9 +95,7 @@
         "priceDetails": "",
         "features": [
           "六芒星天幕豪華VIP休息區",
-          "免費兌換微醺酒飲 1份",
-          " --- ",
-          " --- "
+          "免費兌換微醺酒飲 1份"
         ]
       },
       {
@@ -118,9 +116,7 @@
         "priceDetails": "",
         "features": [
           "野營營位 1個",
-          "免費兌換微醺酒飲 2份",
-          " --- ",
-          " --- "
+          "免費兌換微醺酒飲 2份"
         ]
       }
     ]
@@ -150,32 +146,32 @@
     "items": [
       {
         "name": "GQ Taiwan",
-        "image": "/assets/images/gq.png",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/gq_a3yukb.png",
         "description": "攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字"
       },
       {
         "name": "森深試務所",
-        "image": "/assets/images/森深.png",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E6%A3%AE%E6%B7%B1_wqvpc9.png",
         "description": "攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字"
       },
       {
         "name": "洋薊企画",
-        "image": "/assets/images/洋薊.png",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E6%B4%8B%E8%96%8A_hs7gur.png",
         "description": "攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字"
       },
       {
         "name": "丘丘森旅",
-        "image": "/assets/images/丘丘.png",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E4%B8%98%E4%B8%98_yqk0be.png",
         "description": "攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字"
       },
       {
         "name": "林務局花蓮林區管理處",
-        "image": "/assets/images/forestry.png",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/forestry_gu3zct.png",
         "description": "攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字"
       },
       {
         "name": "Capsule Vault",
-        "image": "/assets/images/capsuleVault.png",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937109/Partner/capsuleVault_lymvfm.png",
         "description": ""
       }
     ]

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { motion, useTransform, useViewportScroll, useSpring } from 'framer-motion';
 
 import { Popover, Transition } from '@headlessui/react';
@@ -9,16 +9,42 @@ import config from '../config/index.json';
 
 const headerLink = ["about us", "features", "events", "tickets", "contact"];
 
+// const hasWindow = typeof window !== 'undefined';
+
+// function getWindowDimension() {
+//   const width = hasWindow ? window.innerWidth : null;
+//   const height = hasWindow ? window.innerHeight : null;
+//   return {
+//     height, width
+//   };
+// }
+
+// function useWindowDimensions() {
+//   const [windowDimensions, setWindowDimensions] = useState(getWindowDimension());
+
+//   useEffect(() => {
+//     function handleResize() {
+//       setWindowDimensions(getWindowDimension());
+//     }
+
+//     window.addEventListener('resize', handleResize);
+//     return () => window.removeEventListener('resize', handleResize);
+//   }, []);
+
+//   return windowDimensions;
+// }
 
 const Menu = () => {
+  // const { height, width } = useWindowDimensions();
+
   const { navigation, company, callToAction } = config;
   const { name: companyName, logo } = company;
 
-  const { scrollYProgress } = useViewportScroll();
-  const scaleX = useTransform(scrollYProgress, [0, 3.3], [0, 1])
+  const { scrollYProgress, scrollY } = useViewportScroll();
+  const scaleX = useTransform(scrollYProgress, [0, 1], [0, 1])
   const progressX = useSpring(scaleX, {
     stiffness: 200,
-    damping: 70,
+    damping: 40,
     restDelta: 0.001
   })
   

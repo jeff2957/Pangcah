@@ -7,7 +7,7 @@ import { wrap } from "popmotion";
 const variants = {
   enter: (direction: number) => {
     return {
-      x: direction > 0 ? 1000 : -1000,
+      x: direction > 0 ? 10 : -10,
       opacity: 0
     };
   },
@@ -19,7 +19,7 @@ const variants = {
   exit: (direction: number) => {
     return {
       zIndex: 0,
-      x: direction < 0 ? 1000 : -1000,
+      x: direction < 0 ? 10 : -10,
       opacity: 0
     };
   }
@@ -31,9 +31,11 @@ const swipePower = (offset: number, velocity: number) => {
 };
 
 const images = [
-  "https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png",
-  "https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png",
-  "https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png"
+  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936984/Vendor/Wonder_she5gv.png",
+  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936981/Vendor/wonderland_mmfapd.png",
+  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E4%BB%8A%E6%97%A5%E5%B7%A5%E4%BA%8B_j1qcdw.png",
+  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E8%87%BA%E8%99%8E%E7%B2%BE%E9%87%80_azvsos.png",
+  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E8%8A%A2%E8%8B%92%E6%89%8B%E4%BD%9C%E8%97%9D%E5%BB%8A_kf4zpl.png"
 ];
 
 // const imagePoly = [
@@ -41,12 +43,11 @@ const images = [
 // ];
 
 const imageText = [
-  "市集一",
-  "市集二",
-  "市集三",
-  "市集四",
-  "市集五",
-  "市集六"
+  "Wonder",
+  "wonderland",
+  "今日工事",
+  "臺虎精釀",
+  "芢苒手作藝廊"
 ];
 
 const MotionSlider = () => {
@@ -77,8 +78,8 @@ const MotionSlider = () => {
           <motion.img
           key={page}
           src={images[imageIndex]}
-          className="absolute clip rounded-full"
-          style={{maxWidth: '70vw', minWidth: '20vw', width: 'auto',}}
+          className="absolute clip rounded-3xl lg:h-4/6 md:h-2/6 h-1/3"
+          // style={{maxWidth: '30vw', minWidth: '30vw', width: 'auto'}}
           custom={direction}
           variants={variants}
           initial="enter"
@@ -105,10 +106,10 @@ const MotionSlider = () => {
         {/* </motion.div> */}
         {/* ))} */}
       </AnimatePresence>
-      <div className="next" onClick={() => paginate(1)} style={{right: '15%', height: '0%'}}>
+      <div className="next" onClick={() => paginate(1)} style={{right: '10%', height: '0%'}}>
         {"‣"}
       </div>
-      <div className="prev" onClick={() => paginate(-1)} style={{left: '15%', transform: 'scale(-1)', height: '1%'}}>
+      <div className="prev" onClick={() => paginate(-1)} style={{left: '10%', transform: 'scale(-1)', height: '1%'}}>
         {"‣"}
       </div>
       </div>

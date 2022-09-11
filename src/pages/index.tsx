@@ -44,7 +44,7 @@ const App = () => {
     // style={{backgroundImage: 'url(/assets/images/mainHeroImg.png)', backgroundSize: 'center', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', width: '100vw', height: '100vh'}}
     >
       <motion.div className={`relative m-3 rounded-3xl`} 
-      style={{zIndex: 21, backgroundImage: 'url(assets/images/mainHeroImg.png)', backgroundSize: 'cover', backgroundPosition: 'center', objectFit: 'fill', opacity: opacity}}
+      style={{zIndex: 21, backgroundImage: 'url(https://res.cloudinary.com/projectartichoke/image/upload/v1662938512/mainHeroImg_vrqe8z.png)', backgroundSize: 'cover', backgroundPosition: 'center', objectFit: 'fill', opacity: opacity}}
       >
         <div className="max-w-8xl mx-auto">
           <div

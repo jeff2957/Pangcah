@@ -31,13 +31,13 @@ const Pricing = () => {
             <div
               className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}
             >
-              <div className={`p-8 text-sm whitespace-nowrap md:text-3xl font-bold text-center border-b-4`}>
+              <div className={`py-8 text-sm whitespace-nowrap md:text-3xl font-bold text-center border-b-4`}>
                 {firstPlan?.name}
               </div>
-              <ul className={`w-full text-center text-sm`}>
+              <ul className={`w-full text-center`}>
                 {firstPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-1 md:py-4`}
+                    className={`border-b h-auto py-4 md:py-4 text-xs md:text-sm lg:text-lg`}
                     key={`${firstPlan.name}-${feature}`}
                   >
                     {feature}
@@ -46,13 +46,16 @@ const Pricing = () => {
               </ul>
             </div>
             <div
-              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
+              className={`flex-none mt-0 bg-background rounded-b rounded-t-none overflow-hidden shadow py-6`}
             >
               <div
-                className={`w-full pt-6 md:text-2xl text-md text-gray-600 font-bold text-center`}
+                className={`w-full pt-0 md:text-2xl text-md text-gray-600 font-bold flex justify-center`}
               >
                 {firstPlan?.price}
-                <span className={`text-base`}> {firstPlan?.priceDetails}</span>
+                {/* <span className={`text-base`}> {firstPlan?.priceDetails}</span> */}
+                <a className='w-5 hover:cursor-pointer'>
+                  <img src='/assets/icon/buy-button.png'></img>
+                </a>
               </div>
             </div>
           </div>
@@ -62,7 +65,7 @@ const Pricing = () => {
             <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
             >
-              <div className={`w-full p-8 whitespace-nowrap text-md md:text-5xl font-bold text-center text-primary`}>
+              <div className={`w-full py-8 whitespace-nowrap text-md md:text-5xl font-bold text-center text-primary`}>
                 {secondPlan?.name}
               </div>
               <div
@@ -71,7 +74,7 @@ const Pricing = () => {
               <ul className={`w-full text-center text-base font-bold`}>
                 {secondPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-1 md:py-4 text-gray-700`}
+                    className={`border-b py-1 md:py-4 text-gray-700 text-sm md:text-md lg:text-xl`}
                     key={`${secondPlan?.name}-${feature}`}
                   >
                     {feature}
@@ -80,27 +83,30 @@ const Pricing = () => {
               </ul>
             </div>
             <div
-              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
+              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow py-6`}
             >
-              <div className={`w-full pt-6 text-xl font-bold text-center text-gray-700 md:text-4xl`}>
+              <div className={`w-full pt-6 text-xl font-bold flex justify-center text-gray-700 md:text-4xl`}>
                 {secondPlan?.price}
-                <span className={`text-base`}> {secondPlan?.priceDetails}</span>
+                {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
+                <a className='w-8 mt-1 hover:cursor-pointer'>
+                  <img src='/assets/icon/buy-button.png'></img>
+                </a>
               </div>
             </div>
           </div>
           <div
-            className={`flex flex-col h-1/6 w-1/4 mx-0 rounded-none lg:rounded-l-lg bg-primary mt-4`}
+            className={`flex flex-col h-1/6 w-1/4 mx-0 rounded-none md:rounded-l-lg bg-background mt-4`}
           >
             <div
-              className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}
+              className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden py-auto`}
             >
-              <div className={`p-8 whitespace-nowrap text-sm md:text-3xl font-bold text-center border-b-4`}>
+              <div className={`py-8 whitespace-nowrap text-sm md:text-3xl font-bold text-center border-b-4`}>
                 {thirdPlan?.name}
               </div>
-              <ul className={`w-full text-center text-sm`}>
+              <ul className={`w-full text-center`}>
                 {thirdPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-1 md:py-4`}
+                    className={`border-b h-auto py-5 md:py-4 text-xs md:text-sm lg:text-lg`}
                     key={`${thirdPlan?.name}-${feature}`}
                   >
                     {feature}
@@ -109,13 +115,16 @@ const Pricing = () => {
               </ul>
             </div>
             <div
-              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
+              className={`flex-none mt-0 bg-background rounded-b rounded-t-none overflow-hidden shadow py-6`}
             >
               <div
-                className={`w-full pt-6 md:text-2xl text-md text-gray-600 font-bold text-center`}
+                className={`w-full pt-0 md:text-2xl text-md text-gray-600 font-bold flex justify-center`}
               >
                 {thirdPlan?.price}
-                <span className={`text-base`}> {thirdPlan?.priceDetails}</span>
+                {/* <span className={`text-base`}> {thirdPlan?.priceDetails}</span> */}
+                <a className='w-5 hover:cursor-pointer'>
+                  <img src='/assets/icon/buy-button.png'></img>
+                </a>
               </div>
             </div>
           </div>
