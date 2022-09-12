@@ -8,7 +8,7 @@ const About = () => {
   const { socialMedia, sections } = about;
 
   return (
-    <div id="about" className='bg-primary py-3 mx-3 rounded-br-2xl rounded-bl-2xl rounded-tr-[100px] rounded-tl-[100px]' // className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
+    <div id="about" className='bg-primary py-3 mx-3 lg:rounded-br-2xl lg:rounded-bl-2xl rounded-br-lg rounded-bl-lg lg:rounded-tr-[100px] lg:rounded-tl-[100px] rounded-tl-[80px] rounded-tr-[80px]' // className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
     >
       <div className="flex flex-col items-center justify-center">
         <div>

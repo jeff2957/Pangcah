@@ -121,10 +121,10 @@ const Menu = () => {
           as={Fragment}
           enter="duration-150 ease-out"
           enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100 z-30"
+          enterTo="opacity-100 scale-100 z-50"
           leave="duration-100 ease-in"
-          leaveFrom="opacity-100 scale-100 z-30"
-          leaveTo="opacity-0 scale-95 z-30"
+          leaveFrom="opacity-100 scale-100 z-50"
+          leaveTo="opacity-0 scale-95 z-50"
         >
           <Popover.Panel
             focus
