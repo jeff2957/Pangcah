@@ -41,7 +41,7 @@ const Menu = () => {
   const { name: companyName, logo } = company;
 
   const { scrollYProgress, scrollY } = useViewportScroll();
-  const scaleX = useTransform(scrollYProgress, [0, 1], [0, 1])
+  const scaleX = useTransform(scrollYProgress, [0, 0.4, 0.8, 1, 1.5], [0, 0.3, 0.6, 0.8, 1])
   const progressX = useSpring(scaleX, {
     stiffness: 200,
     damping: 40,
@@ -99,6 +99,7 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
+                  isDynamic={true}
                   hover={headerLink}
                   className="font-medium text-secondary text-opacity-80 hover:text-primaryLight"
                 >
@@ -120,10 +121,10 @@ const Menu = () => {
           as={Fragment}
           enter="duration-150 ease-out"
           enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100 z-50"
+          enterTo="opacity-100 scale-100 z-30"
           leave="duration-100 ease-in"
-          leaveFrom="opacity-100 scale-100 z-50"
-          leaveTo="opacity-0 scale-95 z-50"
+          leaveFrom="opacity-100 scale-100 z-30"
+          leaveTo="opacity-0 scale-95 z-30"
         >
           <Popover.Panel
             focus
