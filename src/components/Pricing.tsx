@@ -65,7 +65,7 @@ const Pricing = () => {
             <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
             >
-              <div className={`w-full py-8 whitespace-nowrap text-md md:text-5xl font-bold text-center text-primary`}>
+              <div className={`w-full py-8 whitespace-nowrap text-md md:text-5xl font-bold text-center text-primaryLight`}>
                 {secondPlan?.name}
               </div>
               <div

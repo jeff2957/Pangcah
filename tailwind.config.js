@@ -28,7 +28,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#799A7D',
+        // primary: '#799A7D',
+        primary: '#e0e0e0',
         secondary: '#C2E1C5',
         tertiary: '#DDF79D',
         text: '#C2E1C5',
@@ -38,7 +39,7 @@ module.exports = {
         background: '#ffffff',
       },
       boxShadow: {
-        artistBg: '-6px 0 0 0 rgba(63, 75, 32, 1)'
+        artistBg: '-5px 3px 0 0 rgba(149, 150, 150, 1)'
       },
       // backgroundImage: {
       //   "backgroundImg": "url('./assets/images/PangcahBackground.svg')"
