@@ -35,12 +35,12 @@ return (
                 <img className="hover:cursor-pointer" src={partner.image}/>
               </a>
             } modal>
-              <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-sm shadow-sm" style={{width: "50vw", height: "50vh"}}>
+              <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-sm shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
                 <div className="flex flex-col space-y-5 items-center">
                   {/* <div> */}
                   <img className="w-1/5 h-1/5 mt-5" src={partner.image}/>
-                  <h4 className=" text-3xl font-TaipeiBold">We are {partner.name}</h4>
-                  <text className="px-5 font-TaipeiLight">{partner.description}</text>
+                  <h4 className=" text-xl md:text-3xl font-bold font-TaipeiBold">{partner.name}</h4>
+                  <text className="px-5 font-TaipeiLight pb-5">{partner.description}</text>
                   {/* </div> */}
                 </div>
               </div>
