@@ -58,7 +58,7 @@ return (
       <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
-          <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="https://res.cloudinary.com/projectartichoke/image/upload/v1662936722/Artists/%E5%8F%B0%E7%8E%96%E7%B7%9A%E6%A8%82%E5%9C%98_cpwodb.png" />
+          <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="url(https://res.cloudinary.com/projectartichoke/image/upload/v1662936722/Artists/%E5%8F%B0%E7%8E%96%E7%B7%9A%E6%A8%82%E5%9C%98_cpwodb.png)" />
           <h2 className="lg:text-xl text-md">台玖線樂團</h2>
         </div>
       </div>

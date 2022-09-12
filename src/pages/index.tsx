@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <>
-    <motion.video id="vidBlur" className='overscroll-none' src="https://res.cloudinary.com/projectartichoke/video/upload/v1662434830/backgroundVid_new_zqhuoi.mp4" autoPlay loop muted layout 
+    <motion.video id="vidBlur" className='overscroll-none' src="https://res.cloudinary.com/projectartichoke/video/upload/v1662961126/BackgroundVid_0.6x_mtcrfy.mp4" autoPlay loop muted layout 
     style={{objectFit: 'cover', width: '100vw', minHeight: '100vh' ,position: 'fixed', top: 0, zIndex: 0, scale: overScale, filter }}
     >
       your browser does not support the video format
