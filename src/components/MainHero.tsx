@@ -7,13 +7,13 @@ const MainHero = () => {
   return (
     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-20 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="text-left">
-        <h5 className=" pt-5 text-5xl tracking-tight font-extrabold text-white md:text-6xl font-KozHeavy">
+        <h5 className=" pt-5 text-5xl font-extrabold text-white md:text-6xl font-KozHeavy tracking-wide">
           <span className="block xl:inline" style={{textAlign: 'left'}}>{mainHero.title +' Festival'}</span>{' '}
           <span className={`block text-primary xl:inline`}>
             {/* {mainHero.subtitle} */}
           </span>
         </h5>
-        <p className="mt-3 text-lg text-gray-200 opacity-90 sm:max-w-xl md:mt-5 md:text-md mx-0 lg:text-2xl font-KozHeavy">
+        <p className="mt-3 text-lg text-gray-200 opacity-90 sm:max-w-xl md:mt-5 md:text-md mx-0 lg:text-2xl font-KozHeavy font-bold ">
           {mainHero.description}<br/>
           {mainHero.description1}
         </p>
