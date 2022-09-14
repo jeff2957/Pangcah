@@ -55,7 +55,7 @@ return (
           </div>
         </div>
       </Popup>
-      <Popup trigger={
+      {/* <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
           <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/台玖線樂團.png" />
@@ -70,8 +70,8 @@ return (
             <text className="px-5 font-TaipeiLight pb-5 text-sm md:text-xl">臺灣的東部，花蓮，是台玖線團員相遇的地方、發跡夢想、創作、表演的地方。當年單純想唱自己的歌為出發，嘗試不同音樂風格將生活中的感動、生命的互動用搖滾、藍調、原民風、輕音樂、和聲、福音音樂或族語創作等等呈現。<br/>以台玖線為團名的原因，就是以臺九線公路諧音為命名，對團員們來說，這是一條臺灣最美、最長的公路，就像人的一生一樣，有起有落，有高山有低谷，有海洋有平原。靠著那加給我們力量的，我們不忘初衷『捍衛夢想，拒絕放棄』。</text>
           </div>
         </div>
-      </Popup>
-      <Popup trigger={
+      </Popup> */}
+      {/* <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
           <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/桑布伊.png" />
@@ -86,7 +86,7 @@ return (
             <text className="px-5 font-TaipeiLight pb-5 text-sm md:text-xl">一個在年輕的身體裡住著古老靈魂，來自臺東山與海交界處的一個卑南族古老部落，自幼學習卑南族文化的桑布伊，不僅學會族語和部落歌曲吟唱技巧，更將他對傳統文化的了解，藉由歌唱的方式傳承分享。<br/>桑布伊曾於2013年以專輯《dalan》榮獲第24屆金曲獎最佳原住民語歌手獎，2017年以《椏幹》榮獲第28屆金曲獎最佳原住民語歌手獎、最佳演唱錄音專輯獎，2021年以《得力量 pulu'em》榮獲第32屆金曲獎最佳原住民語歌手獎。</text>
           </div>
         </div>
-      </Popup>
+      </Popup> */}
       <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
@@ -103,7 +103,7 @@ return (
           </div>
         </div>
       </Popup>
-      <Popup trigger={
+      {/* <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
           <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/太巴塱蝸牛班.png" />
@@ -118,7 +118,7 @@ return (
             <text className="px-5 font-TaipeiLight pb-5 text-sm md:text-xl">歌手介紹</text>
           </div>
         </div>
-      </Popup>
+      </Popup> */}
       <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
@@ -138,7 +138,7 @@ return (
     </div>
     <h1 className="mx-auto mt-5 w-1/2 text-center font-TaipeiRegular font-bold text-xl">10/9（日）</h1>
     <div className="mt-5 grid md:grid-cols-4 gap-5 grid-cols-2">
-      <Popup trigger={
+      {/* <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
           <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/雷擎.png" />
@@ -154,8 +154,8 @@ return (
 </text>
           </div>
         </div>
-      </Popup>
-      <Popup trigger={
+      </Popup> */}
+      {/* <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
           <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/大亨.png" />
@@ -170,8 +170,8 @@ return (
             <text className="px-5 font-TaipeiLight pb-5 text-sm md:text-xl">饒舌歌手、製作人，來自花蓮的阿美族人，嘗試以生活經驗結合部落文化、族語元素作為創作題材。2020年改編阿美族古謠共同演唱知名饒舌Cypher《我阿姨也癢》， 而後更推出《DACI‘喇季》、《Kaying 改硬》等歌曲以幽默詼諧的歌詞連結自身文化，透過自己的語言唱出屬於自己的故事，更藉由個人鮮明的唱腔與風格詮釋出獨特的饒舌音樂。2022年以《Maliepah 聚》入圍臺灣原創流行音樂大賽。</text>
           </div>
         </div>
-      </Popup>
-      <Popup trigger={
+      </Popup> */}
+      {/* <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
           <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/保卜・巴督路.png" />
@@ -187,7 +187,7 @@ return (
 </text>
           </div>
         </div>
-      </Popup>
+      </Popup> */}
       <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
@@ -204,7 +204,7 @@ return (
           </div>
         </div>
       </Popup>
-      <Popup trigger={
+      {/* <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
           <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/阿爆.png" />
@@ -219,8 +219,8 @@ return (
             <text className="px-5 font-TaipeiLight pb-5 text-sm md:text-xl">歌手、詞曲創作人、主持人，臺東排灣族人，曾獲第15屆金曲獎最佳重唱組合獎，第28.31屆最佳原住民語專輯獎。2016年發行全排灣語專輯《vavayan·女人》，並於隔年獲得金曲獎最佳原住民語專輯獎，2020年10月3日以《kinakaian 母親的舌頭》二度獲頒金曲獎最佳原住民語專輯獎、年度專輯獎，並以〈Thank You 感謝〉拿下年度歌曲獎。<br/>阿爆致力將原住民族文化運用不同表演藝術形式呈現，以排灣古調結合流行電音，展現讓人耳目一新的音樂類型，使更多不同族群了解臺灣原住民族傳統價值的美好。</text>
           </div>
         </div>
-      </Popup>
-      <Popup trigger={
+      </Popup> */}
+      {/* <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
           <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/太巴塱年齡階層.png" />
@@ -235,7 +235,7 @@ return (
             <text className="px-5 font-TaipeiLight pb-5 text-sm md:text-xl">生活有時序，季節有更迭，年齡有排序。在不同的年齡階層裡，合作分工著維持一個部落（國家）的正常運作，每一個階層就像充滿生命力的齒輪，彼此相連緊扣運轉，缺一不可。</text>
           </div>
         </div>
-      </Popup>
+      </Popup> */}
     </div>
   </div>
 </section>

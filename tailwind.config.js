@@ -37,6 +37,7 @@ module.exports = {
         hover: '#E2A155',
         border: '#1a2e35',
         primaryLight: '#8aba90',
+        primaryGreen: '#799A7D',
         background: '#ffffff',
       },
       boxShadow: {

@@ -21,13 +21,17 @@
       "href": "pricing"
     },
     {
+      "name": "NFT",
+      "href": "NFT"
+    },
+    {
       "name": "聯絡資訊",
       "href": "partner"
     }
   ],
   "callToAction": {
     "text": "購買門票",
-    "href": "#"
+    "href": "https://www.kkday.com/zh-tw/product/133056"
   },
   "mainHero": {
     "title": "PANGCAH",
@@ -90,33 +94,32 @@
     "title": "票價",
     "items": [
       {
-        "name": "VIP票",
-        "price": "$1500",
+        "name": "一般PASS",
+        "price": "免費",
         "priceDetails": "",
         "features": [
-          "六芒星天幕豪華VIP休息區",
-          "免費兌換微醺酒飲 1份"
+          "10/8、10/9 二日皆可入場"
         ]
       },
       {
-        "name": "NFT虛擬票",
+        "name": "NFT PASS",
         "price": "$3080",
         "priceDetails": "",
 
         "features": [
-          "Pangcah Genesis NFT 1枚",
+          "Pangcah Genesis NFT 1 枚",
           "六芒星天幕豪華VIP休息區",
-          "免費兌換微醺酒飲 1份",
-          "植樹體驗 1位"
+          "免費兌換微醺酒飲 1 份",
+          "植樹體驗 1 位"
         ]
       },
       {
-        "name": "野營票",
-        "price": "$2400",
+        "name": "VIP PASS",
+        "price": "$600",
         "priceDetails": "",
         "features": [
-          "野營營位 1個",
-          "免費兌換微醺酒飲 2份"
+          "六芒星天幕VIP休息區",
+          "免費兌換微醺酒飲 1 份"
         ]
       }
     ]
@@ -147,27 +150,27 @@
       {
         "name": "GQ Taiwan",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/gq_a3yukb.png",
-        "description": "攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字攤商1介紹文字"
+        "description": ""
       },
       {
         "name": "森深試務所",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E6%A3%AE%E6%B7%B1_wqvpc9.png",
-        "description": "攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字攤商2介紹文字"
+        "description": ""
       },
       {
         "name": "洋薊企画",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E6%B4%8B%E8%96%8A_hs7gur.png",
-        "description": "攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字攤商3介紹文字"
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663151030/Partner/%E6%B4%8B%E8%96%8A_ej5txs.png",
+        "description": ""
       },
       {
         "name": "丘丘森旅",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E4%B8%98%E4%B8%98_yqk0be.png",
-        "description": "攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字攤商4介紹文字"
+        "description": ""
       },
       {
         "name": "林務局花蓮林區管理處",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/forestry_gu3zct.png",
-        "description": "攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字攤商5介紹文字"
+        "description": ""
       },
       {
         "name": "Capsule Vault",
