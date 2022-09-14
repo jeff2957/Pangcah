@@ -53,7 +53,7 @@ const Pricing = () => {
               >
                 {firstPlan?.price}
                 {/* <span className={`text-base`}> {firstPlan?.priceDetails}</span> */}
-                <a className='w-5 hover:cursor-pointer'>
+                <a className='w-5 hover:cursor-pointer' target="_blank" rel="noreferrer noopener" href='https://www.kkday.com/zh-tw/product/133056'>
                   <img src='/assets/icon/buy-button.png'></img>
                 </a>
               </div>
@@ -88,7 +88,7 @@ const Pricing = () => {
               <div className={`w-full pt-6 text-xl font-bold flex justify-center text-gray-700 md:text-4xl`}>
                 {secondPlan?.price}
                 {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-                <a className='w-8 mt-1 hover:cursor-pointer'>
+                <a className='w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
                   <img src='/assets/icon/buy-button.png'></img>
                 </a>
               </div>
@@ -122,7 +122,7 @@ const Pricing = () => {
               >
                 {thirdPlan?.price}
                 {/* <span className={`text-base`}> {thirdPlan?.priceDetails}</span> */}
-                <a className='w-5 hover:cursor-pointer'>
+                <a className='w-5 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
                   <img src='/assets/icon/buy-button.png'></img>
                 </a>
               </div>
