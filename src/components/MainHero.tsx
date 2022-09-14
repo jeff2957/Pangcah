@@ -10,19 +10,19 @@ const MainHero = () => {
         {/* <h5 className=" pt-5 text-5xl font-extrabold text-white md:text-6xl font-KozHeavy tracking-wide">
           <span className="block xl:inline" style={{textAlign: 'left'}}>{mainHero.title +' Festival'}</span>{' '}
         </h5> */}
-        <img className='pt-5 w-56 md:w-5/12' src='/assets/icon/pangcahTitle.svg'></img>
+        <img className='pt-5 w-64 md:w-5/12' src='/assets/icon/pangcahNew.png'></img>
         {/* <p className="mt-3 text-lg text-gray-200 opacity-90 sm:max-w-xl md:mt-5 md:text-md mx-0 lg:text-2xl font-KozHeavy font-bold ">
           {mainHero.description}<br/>
           {mainHero.description1}
         </p> */}
-        <img className='mt-3 md:w-1/12 w-1/6' src='/assets/icon/date.svg'></img>
+        <img className='mt-3 md:w-1/12 w-1/6' src='/assets/icon/dateNew.png'></img>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           {/* <div className="text-sm text-gray-100 md:text-3xl" 
           style={{ paddingTop: '42vh', paddingLeft: '60vw'}}
           >
             <h1> 大農大富平地森林園區 </h1>
           </div> */}
-          <img src='/assets/icon/location.svg' className='w-1/5 ml-auto mr-0 pt-40'></img>
+          <img src='/assets/icon/locationNew.png' className='md:w-1/5 w-1/3 ml-auto mr-0 pt-40'></img>
           {/* <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
