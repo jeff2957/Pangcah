@@ -22,6 +22,7 @@ module.exports = {
     fontFamily: {
       KozBold: ["KozMinPro-Bold", "sans-serif"],
       KozHeavy: ["KozMinPro-Heavy", "sans-serif"],
+      HelveticaBlack: ["Helvetica-73-Bold-Extended", 'Arial', 'sans-serif'],
       TaipeiBold: ["TaipeiSansTCBeta-Bold", "sans-serif"],
       TaipeiLight: ["TaipeiSansTCBeta-Light", "sans-serif"],
       TaipeiRegular: ["TaipeiSansTCBeta-Regular", "sans-serif"]

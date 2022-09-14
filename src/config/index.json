@@ -216,6 +216,23 @@
       }
     ]
   },
+  "NFT": [
+    {
+      "title": "Kakacawan",
+      "link": "",
+      "imageUrl": ""
+    },
+    {
+      "title": "Malataw",
+      "link": "",
+      "imageUrl": ""
+    },
+    {
+      "title": "Afalong",
+      "link": "",
+      "imageUrl": ""
+    }
+  ],
   "about": {
     "sections": [
       {

@@ -15,7 +15,7 @@ import LoopSlide from '../components/LoopSlide';
 import Artists from '../components/Artists';
 import Partner from '../components/Partner';
 import MarketSlider from '../components/MotionSlider';
-// import NewPartner from '../components/newPartner'
+import NFT from '../components/NFT';
 
 
 
@@ -23,7 +23,7 @@ const App = () => {
 
   const { scrollYProgress } = useViewportScroll();
   // const opacity = useTransform(scrollY, [0, 100, 200], [0.3, 0, 0.6])
-  const overScale = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [1, 1.2, 1.5, 2]);
+  const overScale = useTransform(scrollYProgress, [0, 1], [1.05, 1.6]);
   const blurScale = useTransform(scrollYProgress, [0, 0.5, 1], [0, 4, 12]);
   const opaRange = useTransform(scrollYProgress, [0, 0.1, 1], [1, 0.01, 0]);
   const opacity = useSpring(opaRange, { stiffness: 400, damping: 40 });
@@ -32,7 +32,7 @@ const App = () => {
   return (
     <>
     <motion.video id="vidBlur" className='overscroll-none' src="https://res.cloudinary.com/projectartichoke/video/upload/v1662961126/BackgroundVid_0.6x_mtcrfy.mp4" autoPlay loop muted layout 
-    style={{objectFit: 'cover', width: '100vw', minHeight: '100vh' ,position: 'fixed', top: 0, zIndex: 0, scale: overScale, filter }}
+    style={{objectFit: 'cover', width: '100vw', minHeight: '100vh' ,position: 'fixed', top: 0, zIndex: 0, filter, scale: overScale}}
     >
       your browser does not support the video format
     </motion.video>
@@ -100,6 +100,11 @@ const App = () => {
       <LazyShow>
         <>
           <Pricing />
+        </>
+      </LazyShow>
+      <LazyShow>
+        <>
+          <NFT />
         </>
       </LazyShow>
       <LazyShow>

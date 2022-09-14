@@ -25,6 +25,10 @@ h1, h4 {
   @apply font-TaipeiBold;
 }
 
+h5 {
+  @apply font-HelveticaBlack;
+}
+
 text {
   @apply font-TaipeiLight
 }
@@ -39,9 +43,17 @@ text {
 
 @font-face {
   font-family: "KozMinPro-Bold";
-  src: url(/public/assets/font/KozMinPro-Bold.otf) format("otf");
+  src: url('/public/assets/font/KozMinPro-Bold.otf') format("otf");
   font-family: "KozMinPro-Heavy";
-  src: url(/public/assets/font/KozMinPro-Heavy.otf) format("otf");
+  src: url('/public/assets/font/KozMinPro-Heavy.otf') format("otf");
+  font-family: "Helvetica";
+  src: url('/public/assets/font/Helvetica-73-Bold-Extended.otf') format("otf");
+  font-family: "TaipeiSansTCBeta-Bold";
+  src: url('/public/assets/font/TaipeiSansTCBeta-Bold.ttf');
+  font-family: "TaipeiSansTCBeta-Light";
+  src: url('/public/assets/font/TaipeiSansTCBeta-Light.ttf');
+  font-family: "TaipeiSansTCBeta-Regular";
+  src: url('/public/assets/font/TaipeiSansTCBeta-Regularld.ttf');
 }
 
 @layer utilities {

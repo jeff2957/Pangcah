@@ -11,7 +11,7 @@ const Product = () => {
     <section className={`py-8 mx-3 rounded-full whitespace-pre-line`} style={{background:'radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9346332282913166) 80%)'}} id="product">
       <div className={`container max-w-5xl mx-auto m-8 md:p-10`}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center `}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center font-TaipeiBold`}
         >
           {product.title.split(' ').map((word, index) => (
             <span
