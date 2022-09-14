@@ -94,23 +94,11 @@
     "title": "票價",
     "items": [
       {
-        "name": "一般PASS",
+        "name": "一般 PASS",
         "price": "免費",
         "priceDetails": "",
         "features": [
           "10/8、10/9 二日皆可入場"
-        ]
-      },
-      {
-        "name": "NFT PASS",
-        "price": "$3080",
-        "priceDetails": "",
-
-        "features": [
-          "Pangcah Genesis NFT 1 枚",
-          "六芒星天幕豪華VIP休息區",
-          "免費兌換微醺酒飲 1 份",
-          "植樹體驗 1 位"
         ]
       },
       {
@@ -120,6 +108,26 @@
         "features": [
           "六芒星天幕VIP休息區",
           "免費兌換微醺酒飲 1 份"
+        ]
+      },
+      {
+        "name": "露營 PASS",
+        "price": "$1500",
+        "priceDetails": "",
+        "features": [
+          "野營營位 1 個",
+          "VIP打卡兌換免費微醺飲品 2 份"
+        ]
+      },
+      {
+        "name": "NFT PASS",
+        "price": "$3080",
+        "priceDetails": "",
+        "features": [
+          "Pangcah Genesis NFT 1 枚",
+          "六芒星天幕豪華VIP休息區",
+          "免費兌換微醺酒飲 1 份",
+          "植樹體驗 1 位"
         ]
       }
     ]
@@ -159,7 +167,7 @@
       },
       {
         "name": "洋薊企画",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663151030/Partner/%E6%B4%8B%E8%96%8A_ej5txs.png",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663164407/Partner/%E6%B4%8B%E8%96%8A%E4%BC%81%E7%94%BBlogo_square_acou2n.png",
         "description": ""
       },
       {

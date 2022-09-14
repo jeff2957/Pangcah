@@ -22,7 +22,7 @@ const MainHero = () => {
           >
             <h1> 大農大富平地森林園區 </h1>
           </div> */}
-          <img src='/assets/icon/location.svg' className='w-1/6 ml-auto mr-0 pt-40'></img>
+          <img src='/assets/icon/location.svg' className='w-1/5 ml-auto mr-0 pt-40'></img>
           {/* <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}

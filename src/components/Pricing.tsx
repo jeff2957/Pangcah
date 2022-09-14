@@ -5,7 +5,7 @@ import config from '../config/index.json';
 const Pricing = () => {
   const { pricing } = config;
   const { items, title } = pricing;
-  const [firstPlan, secondPlan, thirdPlan] = items;
+  const [firstPlan, secondPlan, thirdPlan, forthPlan] = items;
 
   return (
     <section className={`py-8 mx-5 rounded-3xl `} id="pricing" style={{background: 'linear-gradient(193deg, rgba(255,255,255,0.82) 0%, rgba(255,255,255,1) 56%)'}} 
@@ -23,10 +23,10 @@ const Pricing = () => {
           ></div>
         </div>
         <div
-          className={`flex flex-row flex-shrink justify-center pt-12 my-auto space-x-5 md:space-x-10`}
+          className={`flex flex-row flex-shrink justify-center pt-12 my-auto space-x-2 md:space-x-10`}
         >
           <div
-            className={`flex flex-col w-1/4 mx-0 rounded-lg bg-background mt-0 shadow-lg z-10 `}
+            className={`flex flex-col md:w-1/5 mx-0 rounded-lg bg-background mt-0 shadow-lg z-10 `}
           >
             <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
@@ -51,17 +51,17 @@ const Pricing = () => {
             <div
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow py-6`}
             >
-              <div className={`w-full pt-6 text-xl font-bold flex justify-center text-center text-gray-700 md:text-4xl`}>
+              <div className={`w-full pt-6 text-lg font-bold flex justify-center text-center text-gray-700 md:text-4xl`}>
                 {firstPlan?.price}
                 {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-                <a className='w-5 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
+                <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
                   <img src='/assets/icon/buy-button.png'></img>
                 </a>
               </div>
             </div>
           </div>
           <div
-            className={`flex flex-col w-1/4 mx-0 rounded-lg bg-background mt-0 shadow-lg z-10 `}
+            className={`flex flex-col md:w-1/5 mx-0 rounded-lg bg-background mt-0 shadow-lg z-10 `}
           >
             <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
@@ -86,17 +86,17 @@ const Pricing = () => {
             <div
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow py-6`}
             >
-              <div className={`w-full pt-6 text-xl font-bold flex justify-center text-gray-700 md:text-4xl`}>
+              <div className={`w-full pt-6 text-lg font-bold flex justify-center text-gray-700 md:text-4xl`}>
                 {secondPlan?.price}
                 {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-                <a className='w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
+                <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
                   <img src='/assets/icon/buy-button.png'></img>
                 </a>
               </div>
             </div>
           </div>
           <div
-            className={`flex flex-col w-1/4 mx-0 rounded-lg bg-background mt-0 shadow-lg z-10 `}
+            className={`flex flex-col md:w-1/5 mx-0 rounded-lg bg-background mt-0 shadow-lg z-10 `}
           >
             <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
@@ -121,10 +121,45 @@ const Pricing = () => {
             <div
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow py-6`}
             >
-              <div className={`w-full pt-6 text-xl font-bold flex justify-center text-center text-gray-700 md:text-4xl`}>
+              <div className={`w-full pt-6 text-lg font-bold flex justify-center text-center text-gray-700 md:text-4xl`}>
                 {thirdPlan?.price}
                 {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-                <a className='w-5 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
+                <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
+                  <img src='/assets/icon/buy-button.png'></img>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`flex flex-col md:w-1/5 mx-0 rounded-lg bg-background mt-0 shadow-lg z-10 `}
+          >
+            <div
+              className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
+            >
+              <div className={`w-full py-8 whitespace-nowrap text-md md:text-5xl font-bold text-center text-primaryGreen`}>
+                {forthPlan?.name}
+              </div>
+              <div
+                className={`h-1 w-full bg-secondary my-0 py-0 rounded-t`}
+              ></div>
+              <ul className={`w-full text-center text-base font-bold`}>
+                {forthPlan?.features.map((feature) => (
+                  <li
+                    className={`border-b py-1 md:py-4 text-gray-700 text-xs md:text-md lg:text-xl`}
+                    key={`${forthPlan?.name}-${feature}`}
+                  >
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div
+              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow py-6`}
+            >
+              <div className={`w-full pt-6 text-lg font-bold flex justify-center text-center text-gray-700 md:text-4xl`}>
+                {forthPlan?.price}
+                {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
+                <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
                   <img src='/assets/icon/buy-button.png'></img>
                 </a>
               </div>
