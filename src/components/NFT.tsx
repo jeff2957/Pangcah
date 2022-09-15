@@ -45,7 +45,7 @@ id="NFT">
       </div>
       <div className="flex flex-col items-center">
           <h5 className="text-left text-lg md:mx-28 mx-5 md:tracking-wider tracking-tight pt-5 md:pt-10">
-          由 Capsule Vault 團隊打造的 111 枚 Pangcah Genesis NFT，如同 VIP 與數位身份證的綜合性票券，不僅可民眾收藏外，更由現實世界與活動現場的賦能，提供持有者多元的應用權利。
+          由 Capsule Vault 團隊打造的 111 枚 PANGCAH Genesis NFT，如同 VIP 與數位身份證的綜合性票券，不僅可民眾收藏外，更由現實世界與活動現場的賦能，提供持有者多元的應用權利。
           <br/>
           在建構未來的元宇宙同時，不只有科幻與先進的元素，也將那些如同空氣一樣重要的無形文化資產，透過當代科技與藝術再現，儲存於元宇宙之中。
           </h5>

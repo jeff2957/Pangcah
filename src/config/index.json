@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "Pangcah",
+    "name": "PANGCAH",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
@@ -58,7 +58,7 @@
       },
       {
         "title": "自然環境",
-        "description": "此次地方轉譯的多元性豐富，邀請國際知名藝術家范承宗，為生活節打造演出舞台「眾神殿」，製作發想源於太巴塱的Malataw信仰，在阿美族的社會中為戰神與獵神的象徵。\n當今年Pangcah生活節結束後，將舞台回收拆解，重新製作為部落討論公眾事務集會時使用的座椅，如同Malataw的祝福常伴於部落日常生活中，無所不在。",
+        "description": "此次地方轉譯的多元性豐富，邀請國際知名藝術家范承宗，為生活節打造演出舞台「眾神殿」，製作發想源於太巴塱的 Malataw 信仰，在阿美族的社會中為戰神與獵神的象徵。\n當今年 PANGCAH 生活節結束後，將舞台回收拆解，重新製作為部落討論公眾事務集會時使用的座椅，如同 Malataw 的祝福常伴於部落日常生活中，無所不在。",
         "img": "https://res.cloudinary.com/projectartichoke/image/upload/q_60/v1662938054/nature_ouquko.jpg"
       }
     ]
@@ -66,7 +66,7 @@
   "features": {
     "title": "應該不用 ",
     "subtitle": "特色活動",
-    "description": "2022年pangcahg生活節擴大舉辦為兩天一夜，圍繞在音樂、野營、工作坊、市集四大元素，並訂定「煙燻、醃漬、半生熟」為市集與工作坊的年度主題，每一個環節與參與品牌皆為pangcah生活節打造雙日限定商品。",
+    "description": "2022年 PANGCAH 生活節擴大舉辦為兩天一夜，圍繞在音樂、野營、工作坊、市集四大元素，並訂定「煙燻、醃漬、半生熟」為市集與工作坊的年度主題，每一個環節與參與品牌皆為 PANGCAH 生活節打造雙日限定商品。",
     "items": [
       {
         "name": "野營",
@@ -124,7 +124,7 @@
         "price": "$3080",
         "priceDetails": "",
         "features": [
-          "Pangcah Genesis NFT 1 枚",
+          "PANGCAH Genesis NFT 1 枚",
           "六芒星天幕豪華VIP休息區",
           "免費兌換微醺酒飲 1 份",
           "植樹體驗 1 位"

@@ -54,42 +54,24 @@ const App = () => {
           </div>
         </div>
       </motion.div>
-      {/* <LazyShow>
-        <>
-          <Canvas />
-        </>
-      </LazyShow> */}
-      {/* <LazyShow>
-        <>
-        <MainHeroImage />
-        <Canvas />
-        </>
-      </LazyShow> */}
-      {/* <motion.div> */}
       <LazyShow>
         <>
-        {/* <Canvas /> */}
         <LoopSlide />
         </>
       </LazyShow>
-      {/* </motion.div> */}
-      {/* <Canvas /> */}
       <LazyShow>
         <>
           <Product />
-          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
         <>
           <Artists />
-          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
         <>
           <Features />
-          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
@@ -109,13 +91,10 @@ const App = () => {
       </LazyShow>
       <LazyShow>
         <>
-          {/* <Canvas /> */}
           <Partner />
-          {/* <NewPartner /> */}
           <About />
         </>
       </LazyShow>
-      {/* <Analytics /> */}
     </div>
     </>
   );
