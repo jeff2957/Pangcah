@@ -54,7 +54,7 @@ const Pricing = () => {
               <div className={`w-full pt-6 text-lg font-bold flex justify-center text-center text-gray-700 md:text-4xl`}>
                 {firstPlan?.price}
                 {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-                <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
+                <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133104'>
                   <img src='/assets/icon/buy-button.png'></img>
                 </a>
               </div>
