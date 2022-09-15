@@ -40,7 +40,7 @@ return (
                   {/* <div> */}
                   <img className="w-1/5 h-1/5 mt-5" src={partner.image}/>
                   <h4 className=" text-xl md:text-3xl font-bold font-TaipeiBold">{partner.name}</h4>
-                  <text className="px-5 font-TaipeiLight pb-5">{partner.description}</text>
+                  <text className="px-5 md:px-24 font-TaipeiLight pb-5 whitespace-pre-line">{partner.description}</text>
                   {/* </div> */}
                 </div>
               </div>

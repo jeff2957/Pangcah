@@ -156,24 +156,29 @@
     "title": "合作夥伴",
     "items": [
       {
+        "name": "花蓮縣文化局",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663224059/Partner/%E8%8A%B1%E8%93%AE%E7%B8%A3%E6%96%87%E5%8C%96%E5%B1%80_praqlm.png",
+        "description": ""
+      },
+      {
         "name": "GQ Taiwan",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/gq_a3yukb.png",
         "description": ""
       },
       {
         "name": "森深試務所",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E6%A3%AE%E6%B7%B1_wqvpc9.png",
-        "description": ""
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663213905/Partner/%E6%A3%AE%E6%B7%B1_bjorac.png",
+        "description": "位於森林深處並處並務實進行各種實驗的有趣場所，從設計、影像、文字、活動企劃、音樂、製造等各種元素的導入，產出各式生活提案，關注人與環境之間的平衡，試圖為這個世界找出人與環境共存的具體實踐方案。"
       },
       {
         "name": "洋薊企画",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663164407/Partner/%E6%B4%8B%E8%96%8A%E4%BC%81%E7%94%BBlogo_square_acou2n.png",
-        "description": ""
+        "description": "洋薊(Artichoke)是蔬菜之皇，過去在歐洲屬於貴族的食物，具有護肝的養生功效。\n因應快速變遷的廣告/行銷產業，洋薊提供服務的客戶多半為品牌端與行銷人員，都是爆肝的產業，期望透過使用我們的服務，能夠對客戶達到護肝的作用。"
       },
       {
         "name": "丘丘森旅",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E4%B8%98%E4%B8%98_yqk0be.png",
-        "description": ""
+        "description": "丘丘是座落在兩座大山之間的一片寧靜草原，邀請人們探索身心的平衡與永續，以自然的方式親近土地，以覺知的深度照顧心靈。"
       },
       {
         "name": "林務局花蓮林區管理處",
@@ -184,6 +189,11 @@
         "name": "Capsule Vault",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937109/Partner/capsuleVault_lymvfm.png",
         "description": ""
+      },
+      {
+        "name": "WISDOM",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663220929/Partner/wisdom_ymnu76.png",
+        "description": "以多元應用的機能時裝為基底，延伸出堅實洗鍊形象的台灣設計品牌，為穿梭不同都市城鎮的旅人行者提供近未來的舒適貼身製作，總結旅途中便利穿戴的使用經驗，與台灣在地紡織大廠共同開發或選用具專利的多樣化科技面料與副料，歸納整理出「移 / 地 / 輕 / 旅」的設計概念：移動便利、地理適、輕裝隨身、旅伴親膚等製作考量，讓沿途漫遊不同經緯區域所遇上的節氣與季候狀況，仍能保有其：「輕機能  便旅型 | TRIP EASY, FUNCTION BEAUTY」的品牌本質，具體為當代服裝型塑出兼備日常生活品味，以及機能美學法則的風格實踐。"
       }
     ]
   },
