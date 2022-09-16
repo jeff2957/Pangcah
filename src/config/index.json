@@ -25,7 +25,7 @@
       "href": "NFT"
     },
     {
-      "name": "聯絡資訊",
+      "name": "合作夥伴",
       "href": "partner"
     }
   ],
@@ -156,6 +156,11 @@
     "title": "合作夥伴",
     "items": [
       {
+        "name": "花蓮縣政府 - 林務局",
+        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/forestry_gu3zct.png",
+        "description": ""
+      },
+      {
         "name": "花蓮縣文化局",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663224059/Partner/%E8%8A%B1%E8%93%AE%E7%B8%A3%E6%96%87%E5%8C%96%E5%B1%80_praqlm.png",
         "description": ""
@@ -173,17 +178,12 @@
       {
         "name": "洋薊企画",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663164407/Partner/%E6%B4%8B%E8%96%8A%E4%BC%81%E7%94%BBlogo_square_acou2n.png",
-        "description": "洋薊(Artichoke)是蔬菜之皇，過去在歐洲屬於貴族的食物，具有護肝的養生功效。\n因應快速變遷的廣告/行銷產業，洋薊提供服務的客戶多半為品牌端與行銷人員，都是爆肝的產業，期望透過使用我們的服務，能夠對客戶達到護肝的作用。"
+        "description": "以數位為本的行銷廣告公司，主要聚焦於娛樂與時尚產業，將音樂、藝術與行銷結合，打造新型態的體驗式行銷企劃，同時為品牌調配出獨樹一個的行銷模式。"
       },
       {
         "name": "丘丘森旅",
         "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E4%B8%98%E4%B8%98_yqk0be.png",
         "description": "丘丘是座落在兩座大山之間的一片寧靜草原，邀請人們探索身心的平衡與永續，以自然的方式親近土地，以覺知的深度照顧心靈。"
-      },
-      {
-        "name": "林務局花蓮林區管理處",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/forestry_gu3zct.png",
-        "description": ""
       },
       {
         "name": "Capsule Vault",
@@ -278,7 +278,7 @@
       }
     ],
     "socialMedia": {
-      "facebook": "https://www.facebook.com/oripnopangcah/",
+      "facebook": "https://www.facebook.com/pangcahfestival",
       "instagram": "https://www.instagram.com/pangcah.fest/",
       "youtube": "",
       "discord": ""
@@ -287,18 +287,18 @@
   "resources": [
     {
       "title": "first title",
-      "link": "https://twitter.com/kendalmintcode",
-      "imageUrl": "https://placeimg.com/300/300/any"
+      "link": "",
+      "imageUrl": ""
     },
     {
       "title": "second title",
-      "link": "https://twitter.com/kendalmintcode",
-      "imageUrl": "https://placeimg.com/300/300/animals"
+      "link": "",
+      "imageUrl": ""
     },
     {
       "title": "third title",
-      "link": "https://twitter.com/kendalmintcode",
-      "imageUrl": "https://placeimg.com/300/300/tech"
+      "link": "",
+      "imageUrl": ""
     }
   ]
 }

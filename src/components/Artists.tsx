@@ -25,15 +25,15 @@ return (
       <Popup trigger={
       <div className="bg-primary w-50 h-50 rounded hover:shadow-artistBg hover:scale-105 hover:font-bold hover:cursor-pointer">
         <div className="scale-90 text-center">
-          <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/Tiyamacan舞團.png" />
-          <h2 className="lg:text-xl text-md">Tiyamacan舞團</h2>
+          <img className="rounded hover:scale-90 hover:rounded-2xl hover:shadow-md" src="/assets/artists/Tiyamacan舞蹈團.png" />
+          <h2 className="lg:text-xl text-md">Tiyamacan舞蹈團</h2>
         </div>
       </div>
       } modal>
         <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
-            <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/Tiyamacan舞團.png"/>
-            <h4 className=" text-3xl font-TaipeiBold font-bold">Tiyamacan舞團</h4>
+            <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/Tiyamacan舞蹈團.png"/>
+            <h4 className=" text-3xl font-TaipeiBold font-bold">Tiyamacan舞蹈團</h4>
             <text className="px-10 font-TaipeiLight pb-5 text-sm md:text-xl">Tiyamacan（迪雅瑪贊） 的由來是阿美族的始祖傳說而起的。<br />有一對夫妻男生叫Keseng女生叫Madapidap，這對夫妻是太巴塱部落的始祖，他們共生六個孩子，孩子中最小的女兒，叫Tiyamacan（迪雅瑪贊）。 舞團取名為Tiyamacan是因為希望每位舞者在舞台上都是最亮眼的那個光芒一樣閃耀，讓阿美族族人想起這個傳說故事。</text>
           </div>
         </div>

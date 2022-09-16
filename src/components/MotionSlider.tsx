@@ -43,8 +43,8 @@ const images = [
 // ];
 
 const imageText = [
-  "Wonder",
-  "wonderland",
+  "WonderAdam",
+  "奇幻地咖啡館",
   "今日工事",
   "臺虎精釀",
   "芢苒手作藝廊"
