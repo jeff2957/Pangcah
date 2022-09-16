@@ -104,8 +104,8 @@ const newMotionSlider = () => {
               <div>
                 <motion.h2 className="z-20 text-4xl md:text-5xl font-black font-TaipeiBold whitespace-pre-line" >{imageText[imageIndex]}</motion.h2>
               </div>
-              <div className=" md:mx-48 mx-10 my-3 md:rounded-[40px] rounded-[30px] backdrop-blur-xl opacity-90 shadow-md">
-                <motion.h2 className="z-20 text-sm text-white md:text-xl font-TaipeiBold md:mx-14 mx-4 my-3 whitespace-pre-line" >{imageDescrip[imageIndex]}</motion.h2>
+              <div className=" md:mx-64 mx-10 my-3 md:rounded-[40px] rounded-[30px] backdrop-blur-[100px] bg-white bg-opacity-10 shadow-md">
+                <motion.h2 className="z-20 text-sm text-white md:text-xl font-TaipeiBold md:mx-14 mx-4 my-5 whitespace-pre-line" >{imageDescrip[imageIndex]}</motion.h2>
               </div>
               <div>
               <motion.img
