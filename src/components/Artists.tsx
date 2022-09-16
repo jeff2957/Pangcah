@@ -30,7 +30,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/Tiyamacan舞蹈團.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">Tiyamacan舞蹈團</h4>
@@ -46,7 +46,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/Ponay的原式大樂隊.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">Ponay的原式大樂隊</h4>
@@ -62,7 +62,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/詹森淮.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">詹森淮</h4>
@@ -79,7 +79,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/台玖線樂團.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">台玖線樂團</h4>
@@ -95,7 +95,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/桑布伊.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">桑布伊 Sangpuy</h4>
@@ -111,7 +111,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/太巴塱蝸牛班.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">太巴塱蝸牛班</h4>
@@ -127,7 +127,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/Matzka.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">Matzka</h4>
@@ -146,11 +146,11 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/山產.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">山產</h4>
-            <text className="px-10 font-TaipeiLight pb-5 text-sm md:text-xl">【不論我們的生活在何方，我們都知道，我們來自於山裡，那是我們信仰的、思念的、有故事的 -- 出發的地方】<br/>四個人很早就相識，彼此的音樂生活都有各自的精采，偶然際遇，在南北大武山之間的交界河畔，以音樂之名相聚，希望透過彼此交織的音樂，分享關於生活、部落、感情、思念的種種心得。</text>
+            <text className="px-10 font-TaipeiLight pb-5 text-sm md:text-xl">【不論我們的生活在何方，我們都知道，我們來自於山裡，那是我們信仰的、思念的、有故事的 - 出發的地方】<br/>四個人很早就相識，彼此的音樂生活都有各自的精采，偶然際遇，在南北大武山之間的交界河畔，以音樂之名相聚，希望透過彼此交織的音樂，分享關於生活、部落、感情、思念的種種心得。</text>
           </div>
         </div>
       </Popup>
@@ -162,7 +162,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/雷擎.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">雷擎</h4>
@@ -179,7 +179,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/大亨.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">大亨 HengJones</h4>
@@ -195,7 +195,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/保卜・巴督路.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">保卜・巴督路 Baobu Badulu</h4>
@@ -212,7 +212,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/簡燕春.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">簡燕春 Osay Hongay</h4>
@@ -228,7 +228,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/阿爆.png"/>
             <h4 className=" text-xl font-bold font-TaipeiBold">阿爆 Abao</h4>
@@ -244,7 +244,7 @@ return (
         </div>
       </div>
       } modal>
-        <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-md shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+        <div className="popup-content container mx-auto bg-gray-200 rounded-3xl backdrop-blur-[150px] bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/太巴塱年齡階層.png"/>
             <h4 className=" text-3xl  font-TaipeiBold font-bold">太巴塱年齡階層</h4>

@@ -35,7 +35,7 @@ return (
                 <img className="hover:cursor-pointer" src={partner.image}/>
               </a>
             } modal>
-              <div className="popup-content container mx-auto bg-gray-100 rounded-3xl bg-opacity-20 backdrop-blur-sm shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
+              <div className="popup-content container mx-auto rounded-3xl backdrop-blur-[150px] bg-gray-200 bg-opacity-10 shadow-sm" style={{maxWidth: "70vw", minWidth: "60vw", width: 'auto', minHeight: '50vh'}}>
                 <div className="flex flex-col space-y-5 items-center">
                   {/* <div> */}
                   <img className="w-1/5 h-1/5 mt-5" src={partner.image}/>
