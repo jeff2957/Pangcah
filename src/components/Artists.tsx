@@ -115,7 +115,7 @@ return (
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/太巴塱蝸牛班.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">太巴塱蝸牛班</h4>
-            <text className="px-10 font-TaipeiLight pb-5 text-sm md:text-xl">歌手介紹</text>
+            <text className="px-10 font-TaipeiLight pb-5 text-sm md:text-xl">下過雨後，Ina們在田野間採集日常食材，邊撿拾著蝸牛，歌謠就在生活中自然而然發生。<br/>太巴塱蝸牛班是由太巴塱Ina（婦女）們所組成的傳統歌謠傳唱班，透過歌聲傳承對於生活與文化的情感。</text>
           </div>
         </div>
       </Popup>
@@ -150,7 +150,7 @@ return (
           <div className="flex flex-col space-y-5 items-center">
             <img className="w-2/3 md:w-1/3 lg:w-1/3 mt-5" src="/assets/artists/山產.png"/>
             <h4 className=" text-3xl font-TaipeiBold font-bold">山產</h4>
-            <text className="px-10 font-TaipeiLight pb-5 text-sm md:text-xl">歌手介紹</text>
+            <text className="px-10 font-TaipeiLight pb-5 text-sm md:text-xl">【不論我們的生活在何方，我們都知道，我們來自於山裡，那是我們信仰的、思念的、有故事的 -- 出發的地方】<br/>四個人很早就相識，彼此的音樂生活都有各自的精采，偶然際遇，在南北大武山之間的交界河畔，以音樂之名相聚，希望透過彼此交織的音樂，分享關於生活、部落、感情、思念的種種心得。</text>
           </div>
         </div>
       </Popup>
