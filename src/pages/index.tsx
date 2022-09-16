@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <>
-    <motion.video id="vidBlur" className='overscroll-none' src="/assets/video/BackgroundVid.mp4" playsinline disablepictureinpicture autoPlay loop muted layout preload='auto'
+    <motion.video id="vidBlur" className='overscroll-none' src="/assets/video/BackgroundVid.mp4" autoPlay loop muted layout preload='auto'
     style={{objectFit: 'cover', width: '100vw', minHeight: '100vh' ,position: 'fixed', top: 0, zIndex: 0, filter, scale: overScale}}
     >
       your browser does not support the video format
