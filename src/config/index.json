@@ -127,7 +127,8 @@
           "PANGCAH Genesis NFT 1 枚",
           "六芒星天幕豪華VIP休息區",
           "免費兌換微醺酒飲 1 份",
-          "植樹體驗 1 位"
+          "植樹體驗 1 位",
+          "丘丘森旅 住宿85折(限量五間)"
         ]
       }
     ]
@@ -157,12 +158,12 @@
     "items": [
       {
         "name": "花蓮縣政府文化局",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663224059/Partner/%E8%8A%B1%E8%93%AE%E7%B8%A3%E6%96%87%E5%8C%96%E5%B1%80_praqlm.png",
+        "image": "/assets/partner/花蓮縣文化局.png",
         "description": ""
       },
       {
         "name": "林務局花蓮林管處",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/forestry_gu3zct.png",
+        "image": "/assets/partner/林務局.png",
         "description": ""
       },
       {
@@ -172,17 +173,17 @@
       },
       {
         "name": "森深試務所",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663213905/Partner/%E6%A3%AE%E6%B7%B1_bjorac.png",
+        "image": "/assets/partner/森深.png",
         "description": "位於森林深處並處並務實進行各種實驗的有趣場所，從設計、影像、文字、活動企劃、音樂、製造等各種元素的導入，產出各式生活提案，關注人與環境之間的平衡，試圖為這個世界找出人與環境共存的具體實踐方案。"
       },
       {
         "name": "洋薊企画",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663164407/Partner/%E6%B4%8B%E8%96%8A%E4%BC%81%E7%94%BBlogo_square_acou2n.png",
+        "image": "/assets/partner/洋薊.png",
         "description": "以數位為本的行銷廣告公司，主要聚焦於娛樂與時尚產業，將音樂、藝術與行銷結合，打造新型態的體驗式行銷企劃，同時為品牌調配出獨樹一個的行銷模式。"
       },
       {
         "name": "丘丘森旅",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/%E4%B8%98%E4%B8%98_yqk0be.png",
+        "image": "/assets/partner/丘丘.png",
         "description": "丘丘是座落在兩座大山之間的一片寧靜草原，邀請人們探索身心的平衡與永續，以自然的方式親近土地，以覺知的深度照顧心靈。"
       },
       {

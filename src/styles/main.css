@@ -13,7 +13,7 @@ a {
   @apply text-primary;
 }
 
-a:hover {
+a:hover:not(.noBorder) {
   @apply border-b-2 border-primary;
 }
 
@@ -233,12 +233,13 @@ text {
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 1px;
-  padding: 13px 50px 13px;
+  padding: 13px 30px 13px;
   outline: 0;
   border: 1px solid rgb(254, 254, 254);
   cursor: pointer;
   position: relative;
   background-color: rgba(255, 255, 255, 0.24);
+  border-radius: 5rem;
 }
 
 .fill::after {
@@ -248,9 +249,10 @@ text {
   z-index: -1;
   position: absolute;
   height: 100%;
-  top: 7px;
-  left: 7px;
+  top: 8px;
+  left: 8px;
   transition: 0.2s;
+  border-radius: 5rem;
 }
 
 .fill:hover::after {
@@ -269,6 +271,7 @@ text {
   cursor: pointer;
   position: relative;
   background-color: rgba(255, 255, 255, 0.24);
+  border-radius: 5rem;
 }
 
 .filltwo::after {
@@ -281,6 +284,7 @@ text {
   top: 7px;
   left: 7px;
   transition: 0.2s;
+  border-radius: 5rem;
 }
 
 .filltwo:hover::after {

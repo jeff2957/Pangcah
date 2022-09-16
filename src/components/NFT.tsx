@@ -87,10 +87,10 @@ id="NFT">
     </div>
     <div className="flex flex-col items-center pt-5 mx-1">
       <div className="grid grid-cols-2 gap-x-10">
-        <a target="_blank" rel="noopener noreferrer" href="https://www.kkday.com/zh-tw/product/133056?qs=pangcah">
+        <a target="_blank" rel="noopener noreferrer" className="noBorder" href="https://www.kkday.com/zh-tw/product/133056?qs=pangcah">
           <button type="button" className="fill w-full">BUY</button>
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://opensea.io/collection/pangcahgenesis">
+        <a target="_blank" rel="noopener noreferrer" className="noBorder" href="https://opensea.io/collection/pangcahgenesis">
           <button type="button" className="filltwo w-full">OpenSea</button>
         </a>
       </div>
