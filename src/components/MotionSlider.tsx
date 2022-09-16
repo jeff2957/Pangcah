@@ -31,10 +31,18 @@ const swipePower = (offset: number, velocity: number) => {
 };
 
 const images = [
-  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936984/Vendor/Wonder_she5gv.png",
-  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936981/Vendor/wonderland_mmfapd.png",
-  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E4%BB%8A%E6%97%A5%E5%B7%A5%E4%BA%8B_j1qcdw.png",
-  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E8%87%BA%E8%99%8E%E7%B2%BE%E9%87%80_azvsos.png",
+  "/assets/market/WonderAdam.png",
+  "/assets/market/wonderland.png",
+  "/assets/market/今日工事.png",
+  "/assets/market/平和飯店.png",
+  "/assets/market/擠米掰掰飯.png",
+  "/assets/market/臺虎精釀.png",
+  "/assets/market/路邊烤肉.png",
+  "/assets/market/魚刺人.png",
+  // "https://res.cloudinary.com/projectartichoke/image/upload/v1662936984/Vendor/Wonder_she5gv.png",
+  // "https://res.cloudinary.com/projectartichoke/image/upload/v1662936981/Vendor/wonderland_mmfapd.png",
+  // "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E4%BB%8A%E6%97%A5%E5%B7%A5%E4%BA%8B_j1qcdw.png",
+  // "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E8%87%BA%E8%99%8E%E7%B2%BE%E9%87%80_azvsos.png",
   "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E8%8A%A2%E8%8B%92%E6%89%8B%E4%BD%9C%E8%97%9D%E5%BB%8A_kf4zpl.png"
 ];
 
@@ -46,7 +54,11 @@ const imageText = [
   "WonderAdam",
   "奇幻地咖啡館",
   "今日工事",
+  "平和飯店",
+  "擠米 掰掰飯",
   "臺虎精釀",
+  "路邊烤肉",
+  "魚刺人",
   "芢苒手作藝廊"
 ];
 
