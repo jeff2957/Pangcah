@@ -45,7 +45,7 @@
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:"
     }
   },
   "product": {
@@ -54,12 +54,12 @@
       {
         "title": "在地文化",
         "description": "以生物多樣性的永續發展為前提，透過「共創藝術」貫穿阿美族人的工藝、飲食、音樂、建築、信仰、規範等生活日常，體現原住民族的古老智慧於當代的多元想像，打造一場跨界整合的藝術共創大事件，提供地方風土資源轉譯再應用的新方法。",
-        "img": "https://res.cloudinary.com/projectartichoke/image/upload/q_60/v1662938037/culture_psy99m.jpg"
+        "img": "/assets/Image/culture.jpg"
       },
       {
         "title": "自然環境",
         "description": "此次地方轉譯的多元性豐富，邀請國際知名藝術家范承宗，為生活節打造演出舞台「眾神殿」，製作發想源於太巴塱的 Malataw 信仰，在阿美族的社會中為戰神與獵神的象徵。\n當今年 PANGCAH 生活節結束後，將舞台回收拆解，重新製作為部落討論公眾事務集會時使用的座椅，如同 Malataw 的祝福常伴於部落日常生活中，無所不在。",
-        "img": "https://res.cloudinary.com/projectartichoke/image/upload/q_60/v1662938054/nature_ouquko.jpg"
+        "img": "/assets/Image/nature.jpg"
       }
     ]
   },
@@ -71,22 +71,22 @@
       {
         "name": "野營",
         "description": "夜間享受著專屬縱谷的寧靜；晨間呼吸著來自大地的氣息，期間限定的野營體驗，限量報名中！",
-        "icon": "https://res.cloudinary.com/projectartichoke/image/upload/v1662938863/event_camp1_clbfbt.svg"
+        "icon": "/assets/vector/event_camp.svg"
       },
       {
         "name": "音樂",
         "description": "集結來自東部的創作、族語和古調，設計以馬拉道信仰為核心的表演，來一場最具東臺灣風格的音樂饗宴。",
-        "icon": "https://res.cloudinary.com/projectartichoke/image/upload/v1662938863/event_music2_imqrfq.svg"
+        "icon": "/assets/vector/event_market.svg"
       },
       {
         "name": "市集",
         "description": "食物和器物兩者皆是風土、文化與人的連結，藉由吃進口中、穿戴於身的，體驗來自土地與文化的智慧。",
-        "icon": "https://res.cloudinary.com/projectartichoke/image/upload/v1662938863/event_market1_fwprzu.svg"
+        "icon": "/assets/vector/event_music.svg"
       },
       {
         "name": "工作坊",
         "description": "古老的智慧是以經驗來傳承，藉由實際的參與、身體的記憶和五感的體驗，向地方的生活文化學習。",
-        "icon": "https://res.cloudinary.com/projectartichoke/image/upload/v1662938863/event_workshop1_chtjqf.svg"
+        "icon": "/assets/vector/event_workshop.svg"
       }
     ]
   },
@@ -168,7 +168,7 @@
       },
       {
         "name": "GQ Taiwan",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937108/Partner/gq_a3yukb.png",
+        "image": "/assets/partner/gq.png",
         "description": ""
       },
       {
@@ -188,12 +188,12 @@
       },
       {
         "name": "Capsule Vault",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1662937109/Partner/capsuleVault_lymvfm.png",
+        "image": "/assets/partner/capsuleVault.png",
         "description": "Capsule Vault 成立於 2021 年的 NFT 集合式創作團隊。團隊的核心理念在於將『永續』的概念帶入 Web3 的架構之中，且透過優秀的藝術家、設計師、工程師等跨領域的碰撞，將台灣豐沛的創作能量推向國際。\n成立至今發行了『荒謬植物園 Absurd Arboretum』與『荒野 Wasted Wild』兩個大規模的 NFT 項目，並為每一筆交易在現實世界種下樹木。團隊希望透過充滿前瞻性的科技技術，可以同時在虛擬與現實兩個並存的世界中成為『永續』的載體，並藉由藝術啟發大眾對於環境與生態的重視。"
       },
       {
         "name": "WISDOM",
-        "image": "https://res.cloudinary.com/projectartichoke/image/upload/v1663220929/Partner/wisdom_ymnu76.png",
+        "image": "/assets/partner/wisdom.png",
         "description": "以多元應用的機能時裝為基底，延伸出堅實洗鍊形象的台灣設計品牌，為穿梭不同都市城鎮的旅人行者提供近未來的舒適貼身製作，總結旅途中便利穿戴的使用經驗，與台灣在地紡織大廠共同開發或選用具專利的多樣化科技面料與副料，歸納整理出「移 / 地 / 輕 / 旅」的設計概念：移動便利、地理適、輕裝隨身、旅伴親膚等製作考量，讓沿途漫遊不同經緯區域所遇上的節氣與季候狀況，仍能保有其：「輕機能  便旅型 | TRIP EASY, FUNCTION BEAUTY」的品牌本質，具體為當代服裝型塑出兼備日常生活品味，以及機能美學法則的風格實踐。"
       }
     ]

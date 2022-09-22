@@ -37,15 +37,14 @@ const images = [
   "/assets/market/wonderland.png",
   "/assets/market/今日工事.png",
   "/assets/market/平和飯店.png",
-  "/assets/market/擠米掰掰飯.png",
+  "/assets/market/JimmyFoodPlace.png",
   "/assets/market/臺虎精釀.png",
   "/assets/market/路邊烤肉.png",
   "/assets/market/魚刺人.png",
-  // "https://res.cloudinary.com/projectartichoke/image/upload/v1662936984/Vendor/Wonder_she5gv.png",
-  // "https://res.cloudinary.com/projectartichoke/image/upload/v1662936981/Vendor/wonderland_mmfapd.png",
-  // "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E4%BB%8A%E6%97%A5%E5%B7%A5%E4%BA%8B_j1qcdw.png",
-  // "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E8%87%BA%E8%99%8E%E7%B2%BE%E9%87%80_azvsos.png",
-  "https://res.cloudinary.com/projectartichoke/image/upload/v1662936979/Vendor/%E8%8A%A2%E8%8B%92%E6%89%8B%E4%BD%9C%E8%97%9D%E5%BB%8A_kf4zpl.png"
+  "/assets/market/Q-Tace.png",
+  "/assets/market/TapayawTribeGrill.png",
+  "/assets/market/慢一點.png",
+  "/assets/market/芢苒.png"
 ];
 
 // const imagePoly = [
@@ -101,17 +100,17 @@ const newMotionSlider = () => {
             {/* {marketLists.map((market) => ( */}
             {/* <motion.div className="flex flex-col items-center"> */}
             <div className="grid grid-cols-1 place-items-center">
-              <div>
+              {/* <div>
                 <motion.h2 className="z-20 text-4xl md:text-5xl font-black font-TaipeiBold whitespace-pre-line" >{imageText[imageIndex]}</motion.h2>
-              </div>
-              <div className=" md:mx-64 mx-10 my-3 md:rounded-[40px] rounded-[30px] backdrop-blur-[100px] bg-white bg-opacity-10 shadow-md">
+              </div> */}
+              {/* <div className=" md:mx-64 mx-10 my-3 md:rounded-[40px] rounded-[30px] backdrop-blur-[100px] bg-white bg-opacity-10 shadow-md">
                 <motion.h2 className="z-20 text-sm text-white md:text-xl font-TaipeiBold md:mx-14 mx-4 my-5 whitespace-pre-line" >{imageDescrip[imageIndex]}</motion.h2>
-              </div>
+              </div> */}
               <div>
               <motion.img
               key={page}
               src={images[imageIndex]}
-              className="clip rounded-3xl md:h-96 h-56"
+              className="clip rounded-3xl md:h-[100vh] h-[35vh]"
               // style={{maxWidth: '30vw', minWidth: '30vw', width: 'auto'}}
               custom={direction}
               variants={variants}
