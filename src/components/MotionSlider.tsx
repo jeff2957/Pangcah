@@ -110,7 +110,7 @@ const newMotionSlider = () => {
               <motion.img
               key={page}
               src={images[imageIndex]}
-              className="clip rounded-3xl md:h-[100vh] h-[35vh]"
+              className="clip rounded-3xl md:h-[100vh] h-[38vh]"
               // style={{maxWidth: '30vw', minWidth: '30vw', width: 'auto'}}
               custom={direction}
               variants={variants}

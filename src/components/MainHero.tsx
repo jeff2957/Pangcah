@@ -16,13 +16,15 @@ const MainHero = () => {
           {mainHero.description1}
         </p> */}
         <img className='mt-3 md:w-1/12 w-1/6' src='/assets/icon/dateNew.png'></img>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        <div className="bottom-0 right-0">
           {/* <div className="text-sm text-gray-100 md:text-3xl" 
           style={{ paddingTop: '42vh', paddingLeft: '60vw'}}
           >
             <h1> 大農大富平地森林園區 </h1>
           </div> */}
-          <img src='/assets/icon/locationNew.png' className='md:w-1/5 w-1/3 ml-auto mr-0 pt-40'></img>
+          <a href='https://maps.app.goo.gl/PgRdJzfcDu23eAit6?g_st=ic' target="_blank" rel="noopener noreferrer" >
+            <img src='/assets/icon/locationNew.png' className='md:w-1/5 w-1/3 ml-auto pt-56'></img>
+          </a>
           {/* <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
