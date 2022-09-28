@@ -40,7 +40,7 @@ const Pricing = () => {
               <ul className={`w-full text-center text-base font-bold`}>
                 {firstPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-1 md:py-4 text-gray-700 text-xs md:text-md lg:text-xl`}
+                    className={`border-b py-1 md:py-4 text-gray-700 text-[8px] md:text-md lg:text-[18px]`}
                     key={`${firstPlan?.name}-${feature}`}
                   >
                     {feature}
@@ -75,7 +75,7 @@ const Pricing = () => {
               <ul className={`w-full text-center text-base font-bold`}>
                 {secondPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-1 md:py-4 text-gray-700 text-xs md:text-md lg:text-xl`}
+                    className={`border-b py-1 md:py-4 text-gray-700 text-[8px] md:text-md lg:text-[18px]`}
                     key={`${secondPlan?.name}-${feature}`}
                   >
                     {feature}
@@ -110,7 +110,7 @@ const Pricing = () => {
               <ul className={`w-full text-center text-base font-bold`}>
                 {thirdPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-1 md:py-4 text-gray-700 text-xs md:text-md lg:text-xl`}
+                    className={`border-b py-1 md:py-4 text-gray-700 text-[8px] md:text-md lg:text-[18px]`}
                     key={`${thirdPlan?.name}-${feature}`}
                   >
                     {feature}
@@ -145,7 +145,7 @@ const Pricing = () => {
               <ul className={`w-full text-center text-base font-bold`}>
                 {forthPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-1 md:py-4 text-gray-700 text-xs md:text-md lg:text-xl`}
+                    className={`border-b py-1 md:py-4 text-gray-700 text-[8px] md:text-md lg:text-[18px]`}
                     key={`${forthPlan?.name}-${feature}`}
                   >
                     {feature}

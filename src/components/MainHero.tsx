@@ -23,7 +23,7 @@ const MainHero = () => {
             <h1> 大農大富平地森林園區 </h1>
           </div> */}
           <a href='https://maps.app.goo.gl/PgRdJzfcDu23eAit6?g_st=ic' target="_blank" rel="noopener noreferrer" >
-            <img src='/assets/icon/locationNew.png' className='md:w-1/5 w-1/3 ml-auto pt-56'></img>
+            <img src='/assets/icon/location.png' className='md:w-3/7 w-1/3 ml-auto pt-56'></img>
           </a>
           {/* <div className="rounded-md shadow">
             <a
