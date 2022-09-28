@@ -7,6 +7,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
+        <title>PANGCAH Festival</title>
         <Head>
         <link rel="icon" href="/assets/icon/favicon.svg" />
         </Head>
