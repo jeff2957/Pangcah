@@ -121,12 +121,13 @@ const Pricing = () => {
             <div
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow py-6`}
             >
-              <div className={`w-full pt-6 text-lg font-bold flex justify-center text-center text-gray-700 md:text-4xl`}>
-                {thirdPlan?.price}
+              <div className={`w-full pt-6  flex justify-center `}>
+                <h5 className='text-lg font-bold text-center text-gray-700 md:text-4xl line-through line'>{thirdPlan?.price}</h5>
                 {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-                <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
+                {/* <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
                   <img src='/assets/icon/buy-button.png'></img>
-                </a>
+                </a> */}
+                <h5 className='my-auto ml-1 text-md font-bold text-red-500'>完售</h5>
               </div>
             </div>
           </div>
