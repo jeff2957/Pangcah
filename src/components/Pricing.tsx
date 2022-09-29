@@ -127,7 +127,7 @@ const Pricing = () => {
                 {/* <a className='w-4 md:w-8 mt-1 hover:cursor-pointer' target="_blank" rel="noopener noreferrer" href='https://www.kkday.com/zh-tw/product/133056'>
                   <img src='/assets/icon/buy-button.png'></img>
                 </a> */}
-                <h5 className='my-auto ml-1 text-md font-bold text-red-500'>完售</h5>
+                <h5 className='my-auto ml-0.5 md:text-md text-[10px] font-bold text-red-500'>完售</h5>
               </div>
             </div>
           </div>
