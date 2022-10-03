@@ -22,7 +22,7 @@ class MyDocument extends Document {
           property="og:description"
           content="PANGCAH Festival 於2022/10/08 - 2022/10/09在花蓮大農大富平地森園區，邀您一起來享受在地文化及音樂"
         />
-        {/* <meta property="og:image" content={"url of image"} /> */}
+        <meta property="og:image" content={"https://imgur.com/a/ZI7naWz"} />
         </Head>
         <body>
           <Main />
