@@ -10,6 +10,19 @@ class MyDocument extends Document {
         <title>PANGCAH Festival</title>
         <Head>
         <link rel="icon" href="/assets/icon/favicon.svg" />
+        <meta property="og:url" content="pangcahfestival.com" />
+        <meta property="og:type" content="website" />
+        {/* <meta property="fb:app_id" content="your fb app id" /> */}
+        <meta
+          property="og:title"
+          content="2022 PANGCAH Festival"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          property="og:description"
+          content="PANGCAH Festival 於2022/10/08 - 2022/10/09在花蓮大農大富平地森園區，邀您一起來享受在地文化及音樂"
+        />
+        {/* <meta property="og:image" content={"url of image"} /> */}
         </Head>
         <body>
           <Main />
