@@ -20,9 +20,9 @@ class MyDocument extends Document {
         <meta name="twitter:card" content="summary" />
         <meta
           property="og:description"
-          content="PANGCAH Festival 於2022/10/08 - 2022/10/09在花蓮大農大富平地森園區，邀您一起來享受在地文化及多元音樂"
+          content="PANGCAH Festival 於2022/10/08 - 2022/10/09在花蓮大農大富平地森園區，邀您一起來回到故事開始的地方"
         />
-        <meta property="og:image" content={"https://i.imgur.com/uzfzQA1.jpeg"} />
+        <meta property="og:image" content={"https://i.imgur.com/a2YDE3y.jpeg"} />
         </Head>
         <body>
           <Main />
