@@ -5,6 +5,10 @@
   },
   "navigation": [
     {
+      "name": "演出精華",
+      "href": "video"
+    },
+    {
       "name": "關於我們",
       "href": "product"
     },

@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
 
-const headerLink = ["about us", "features", "events", "tickets", "contact"];
+const headerLink = ["video", "about us", "features", "events", "tickets", "contact"];
 
 // const hasWindow = typeof window !== 'undefined';
 

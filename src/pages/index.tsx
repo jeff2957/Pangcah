@@ -16,6 +16,8 @@ import Artists from '../components/Artists';
 import Partner from '../components/Partner';
 import MarketSlider from '../components/MotionSlider';
 import NFT from '../components/NFT';
+import VideoSlider from '../components/VideoSlider';
+
 
 
 
@@ -57,6 +59,11 @@ const App = () => {
       <LazyShow>
         <>
         <LoopSlide />
+        </>
+      </LazyShow>
+      <LazyShow>
+        <>
+        <VideoSlider />
         </>
       </LazyShow>
       <LazyShow>
