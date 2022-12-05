@@ -154,12 +154,12 @@ const VideoSlider = () => {
           </AnimatePresence>
 
 
-      <div className="next mt-5" onClick={() => paginate(1)} style={{right: '7%', height: '0%'}}>
+      {/* <div className="next mt-5" onClick={() => paginate(1)} style={{right: '7%', height: '0%'}}>
         {"‣"}
       </div>
       <div className="prev" onClick={() => paginate(-1)} style={{left: '7%', transform: 'scale(-1)'}}>
         {"‣"}
-      </div>
+      </div> */}
       </div>
     // </section>
     </>
